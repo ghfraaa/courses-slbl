@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "nama_kursus": "Pemrograman Web Dasar",
+    "gambar": "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg",
+    "nama_pengajar": "Andi Saputra",
+    "jabatan_pengajar": "Fullstack Developer Expert",
+    "rating": 4.7,
+    "jumlah_reviews": 85,
+    "foto_pengajar": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg",
+    "jumlah_siswa": 120,
+    "link_kursus": "https://kursus.com/web-dasar",
+    "harga": 150000,
+    "bestSeller": false,
+    "deskripsi": "Pelajari dasar-dasar esensial HTML, CSS, dan JavaScript untuk membangun website statis yang interaktif dan menarik. Kursus ini dirancang untuk pemula tanpa pengalaman pemrograman sebelumnya, membimbing Anda langkah demi langkah dalam menciptakan struktur konten, memberikan gaya visual, dan menambahkan fungsionalitas dasar pada halaman web Anda.",
+    "apa_yang_akan_dipelajari": [
+      "Memahami struktur dasar HTML5.",
+      "Menguasai styling dengan CSS3 (Flexbox, Grid).",
+      "Membuat halaman web responsif.",
+      "Dasar-dasar JavaScript untuk interaktivitas.",
+      "Membuat formulir dan validasi sederhana."
+    ],
+    "fitur_kursus": [
+      "Akses Seumur Hidup",
+      "Sertifikat Kelulusan",
+      "Contoh Kode & Proyek",
+      "Forum Diskusi"
+    ]
+  },
+  {
+    "id": 2,
+    "nama_kursus": "Desain UI/UX untuk Pemula",
+    "gambar": "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg",
+    "nama_pengajar": "Rina Kusuma",
+    "jabatan_pengajar": "Lead UI/UX Designer",
+    "rating": 4.8,
+    "jumlah_reviews": 110,
+    "foto_pengajar": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg",
+    "jumlah_siswa": 95,
+    "link_kursus": "https://kursus.com/uiux",
+    "harga": 180000,
+    "bestSeller": true,
+    "deskripsi": "Pelajari prinsip dasar desain antarmuka pengguna (UI) dan pengalaman pengguna (UX) dari nol menggunakan Figma. Kursus ini akan membimbing Anda melalui proses riset pengguna, pembuatan wireframe, prototyping, dan pengujian untuk menciptakan produk digital yang intuitif dan menarik.",
+    "apa_yang_akan_dipelajari": [
+      "Memahami User-Centered Design (UCD).",
+      "Menggunakan Figma untuk prototyping.",
+      "Melakukan riset pengguna dasar.",
+      "Membuat wireframe dan mock-up.",
+      "Prinsip dasar usability dan accessibility."
+    ],
+    "fitur_kursus": [
+      "Akses Seumur Hidup",
+      "Studi Kasus Nyata",
+      "Template Figma",
+      "Sertifikat Kelulusan"
+    ]
+  },
+  {
+    "id": 3,
+    "nama_kursus": "Data Science dengan Python",
+    "gambar": "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg",
+    "nama_pengajar": "Budi Pratama",
+    "jabatan_pengajar": "Senior Data Scientist",
+    "rating": 4.6,
+    "jumlah_reviews": 90,
+    "foto_pengajar": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg",
+    "jumlah_siswa": 140,
+    "link_kursus": "https://kursus.com/data-science-python",
+    "harga": 200000,
+    "bestSeller": false,
+    "deskripsi": "Selami dunia Data Science dengan Python. Kursus ini akan membekali Anda dengan keterampilan analisis data, visualisasi, dan pembangunan model menggunakan pustaka populer seperti NumPy, Pandas, dan Matplotlib. Cocok untuk Anda yang ingin memulai karir di bidang data.",
+    "apa_yang_akan_dipelajari": [
+      "Dasar-dasar Python untuk Data Science.",
+      "Manipulasi data dengan Pandas.",
+      "Visualisasi data dengan Matplotlib.",
+      "Pengantar statistik untuk data.",
+      "Mempersiapkan data untuk analisis."
+    ],
+    "fitur_kursus": [
+      "Akses Seumur Hidup",
+      "Dataset Latihan",
+      "Notebook Jupyter",
+      "Dukungan Tutor"
+    ]
+  },
+  {
+    "id": 4,
+    "nama_kursus": "Belajar Laravel untuk Web Developer",
+    "gambar": "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg",
+    "nama_pengajar": "Siti Aminah",
+    "jabatan_pengajar": "Backend Developer Lead",
+    "rating": 4.9,
+    "jumlah_reviews": 150,
+    "foto_pengajar": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg",
+    "jumlah_siswa": 110,
+    "link_kursus": "https://kursus.com/laravel",
+    "harga": 170000,
+    "bestSeller": true,
+    "deskripsi": "Bangun aplikasi web dinamis dan skalabel menggunakan Laravel, framework PHP paling populer. Dari routing hingga database ORM (Eloquent), kursus ini mencakup semua yang Anda butuhkan untuk menjadi developer Laravel yang handal.",
+    "apa_yang_akan_dipelajari": [
+      "Menginstal & mengkonfigurasi Laravel.",
+      "Memahami MVC architecture.",
+      "Mengelola database dengan Eloquent ORM.",
+      "Membuat RESTful API.",
+      "Otentikasi & otorisasi pengguna."
+    ],
+    "fitur_kursus": [
+      "Akses Seumur Hidup",
+      "Proyek Akhir",
+      "Sertifikat Kelulusan",
+      "Update Materi Gratis"
+    ]
+  },
+  {
+    "id": 5,
+    "nama_kursus": "Machine Learning Dasar",
+    "gambar": "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg",
+    "nama_pengajar": "Fajar Nugroho",
+    "jabatan_pengajar": "AI/ML Engineer",
+    "rating": 4.5,
+    "jumlah_reviews": 70,
+    "foto_pengajar": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg",
+    "jumlah_siswa": 130,
+    "link_kursus": "https://kursus.com/machine-learning",
+    "harga": 220000,
+    "bestSeller": false,
+    "deskripsi": "Pahami konsep dasar machine learning dan bangun model ML sederhana menggunakan Python. Kursus ini akan mengenalkan Anda pada berbagai algoritma pembelajaran, seperti regresi, klasifikasi, dan clustering, serta cara mengevaluasi performa model.",
+    "apa_yang_akan_dipelajari": [
+      "Konsep Supervised & Unsupervised Learning.",
+      "Algoritma Regresi Linear & Logistik.",
+      "Pengantar Klasifikasi (Decision Trees, SVM).",
+      "Evaluasi Model (akurasi, presisi, recall).",
+      "Membuat model sederhana dengan Scikit-learn."
+    ],
+    "fitur_kursus": [
+      "Akses Seumur Hidup",
+      "Studi Kasus ML",
+      "Quiz Interaktif",
+      "Dukungan Komunitas"
+    ]
+  },
+  {
+    "id": 6,
+    "nama_kursus": "Android App Development dengan Kotlin",
+    "gambar": "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg",
+    "nama_pengajar": "Lina Marlina",
+    "jabatan_pengajar": "Android Developer Specialist",
+    "rating": 4.6,
+    "jumlah_reviews": 95,
+    "foto_pengajar": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg",
+    "jumlah_siswa": 105,
+    "link_kursus": "https://kursus.com/android-kotlin",
+    "harga": 190000,
+    "bestSeller": false,
+    "deskripsi": "Pelajari cara membangun aplikasi Android modern menggunakan Kotlin dari dasar. Kursus ini mencakup dasar-dasar bahasa Kotlin, komponen UI Android, manajemen data, dan integrasi API untuk menciptakan aplikasi fungsional.",
+    "apa_yang_akan_dipelajari": [
+      "Dasar-dasar bahasa pemrograman Kotlin.",
+      "Membuat UI dengan XML & Jetpack Compose.",
+      "Mengelola siklus hidup aktivitas & fragmen.",
+      "Penyimpanan data lokal (SQLite, Room).",
+      "Integrasi RESTful API."
+    ],
+    "fitur_kursus": [
+      "Akses Seumur Hidup",
+      "Contoh Proyek Aplikasi",
+      "Sertifikat Kelulusan",
+      "Sesi Q&A Langsung"
+    ]
+  },
+  {
+    "id": 7,
+    "nama_kursus": "Dasar-Dasar Cyber Security",
+    "gambar": "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg",
+    "nama_pengajar": "Agus Santoso",
+    "jabatan_pengajar": "Cyber Security Analyst",
+    "rating": 4.4,
+    "jumlah_reviews": 120,
+    "foto_pengajar": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg",
+    "jumlah_siswa": 88,
+    "bestSeller": true,
+    "link_kursus": "https://kursus.com/cyber-security",
+    "harga": 160000,
+    "deskripsi": "Pahami konsep fundamental keamanan siber dan ancaman digital yang paling umum. Kursus ini akan membekali Anda dengan pengetahuan dasar tentang cara melindungi diri dan organisasi dari serangan siber, termasuk pengantar enkripsi, keamanan jaringan, dan manajemen risiko.",
+    "apa_yang_akan_dipelajari": [
+        "Memahami jenis-jenis ancaman siber.",
+        "Prinsip dasar enkripsi & dekripsi.",
+        "Keamanan jaringan dasar (firewall, VPN).",
+        "Manajemen identitas & akses.",
+        "Praktik terbaik keamanan pribadi & data."
+    ],
+    "fitur_kursus": [
+        "Akses Seumur Hidup",
+        "Sertifikat Kelulusan",
+        "Sumber Daya yang Dapat Diunduh",
+        "Dukungan 24/7"
+    ]
+},
+  {
+    "id": 8,
+    "nama_kursus": "Fullstack Web Development",
+    "gambar": "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg",
+    "nama_pengajar": "Nadia Fitriani",
+    "jabatan_pengajar": "Senior Fullstack Engineer",
+    "rating": 4.9,
+    "jumlah_reviews": 200,
+    "foto_pengajar": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg",
+    "jumlah_siswa": 200,
+    "link_kursus": "https://kursus.com/fullstack",
+    "harga": 250000,
+    "bestSeller": true,
+    "deskripsi": "Gabungkan keterampilan frontend dan backend untuk membangun aplikasi web lengkap dari nol. Kursus ini akan membawa Anda dari konsep dasar hingga penerapan proyek skala penuh, mencakup framework populer, database, dan deployment.",
+    "apa_yang_akan_dipelajari": [
+      "Mengembangkan frontend dengan React/Vue/Angular.",
+      "Membangun backend dengan Node.js/Python/PHP.",
+      "Manajemen database (SQL & NoSQL).",
+      "Pengembangan API RESTful.",
+      "Deployment aplikasi ke cloud."
+    ],
+    "fitur_kursus": [
+      "Akses Seumur Hidup",
+      "Proyek Fullstack Lengkap",
+      "Sertifikat Kelulusan",
+      "Mentoring Langsung"
+    ]
+  }
+]
