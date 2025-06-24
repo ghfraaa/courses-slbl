@@ -1,246 +1,642 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detail Kelas - E-learning</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
-</head>
-<body class="font-sans antialiased bg-gray-50">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail Kelas - KursusPedia</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-sans antialiased bg-gray-50">
     <nav class="flex items-center justify-between px-8 py-4">
-        <div class="flex items-center space-x-2">
-            <img src="https://flowbite.com/docs/images/logo.svg" alt="E-learning Logo" class="h-8 w-8"> <span class="text-2xl font-bold text-gray-800">E-learning<span class="text-indigo-600">.</span></span>
-        </div>
-        <div class="hidden lg:flex items-center space-x-8">
-            <a href="index.html" class="text-gray-600 hover:text-indigo-600 font-medium">Beranda</a>
-            <a href="#kursus" class="text-gray-600 hover:text-indigo-600 font-medium">Kursus</a>
-            <a href="#testimoni" class="text-gray-600 hover:text-indigo-600 font-medium">Testimoni</a>
-            <a href="#" class="text-gray-600 hover:text-indigo-600 font-medium">Tim Kami</a>
-        </div>
-        <div class="hidden lg:flex items-center space-x-4">
-            <button type="button" class="text-indigo-600 hover:text-indigo-700 bg-indigo-100 hover:bg-indigo-200 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5">Sign In</button>
-            <button type="button" class="text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5">Sign Up</button>
-        </div>
-
-        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-default" aria-expanded="false">
-            <span class="sr-only">Open main menu</span>
-            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-            </svg>
+      <div class="flex items-center space-x-2">
+        <img
+          src="assets/img/KURSUSPEDIAlogo.png"
+          alt="KursusPedia Logo"
+          class="h-8 w-8"
+        />
+        <span class="text-2xl font-bold text-gray-800"
+          >KursusPedia<span class="text-indigo-600">.</span></span
+        >
+      </div>
+      <div class="hidden lg:flex items-center space-x-8">
+        <a
+          href="index.html"
+          class="text-gray-600 hover:text-indigo-600 font-medium"
+          >Beranda</a
+        >
+        <a
+          href="#kursus"
+          class="text-gray-600 hover:text-indigo-600 font-medium"
+          >Kursus</a
+        >
+        <a
+          href="#testimoni"
+          class="text-gray-600 hover:text-indigo-600 font-medium"
+          >Testimoni</a
+        >
+        <a href="#team" class="text-gray-600 hover:text-indigo-600 font-medium"
+          >Tim Kami</a
+        >
+      </div>
+      <div class="hidden lg:flex items-center space-x-4">
+        <button
+          type="button"
+          class="text-indigo-600 hover:text-indigo-700 bg-indigo-100 hover:bg-indigo-200 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5"
+        >
+          Sign In
         </button>
+        <button
+          type="button"
+          class="text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5"
+        >
+          Sign Up
+        </button>
+      </div>
+
+      <button
+        data-collapse-toggle="navbar-default"
+        type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+        aria-controls="navbar-default"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Open main menu</span>
+        <svg
+          class="w-5 h-5"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 17 14"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15"
+          />
+        </svg>
+      </button>
     </nav>
 
     <div class="hidden w-full lg:hidden" id="navbar-default">
-        <ul class="font-medium flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 space-y-2">
-            <li><a href="index.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100">Beanda</a></li>
-            <li><a href="#kursus" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100">Kursus</a></li>
-            <li><a href="#testimoni" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100">Testimoni</a></li>
-            <li><a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100">Tim Kami</a></li>
-            <li><button type="button" class="w-full text-left text-indigo-600 bg-indigo-100 hover:bg-indigo-200 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-sm px-3 py-2.5">Sign In</button></li>
-            <li><button type="button" class="w-full text-left text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-sm px-3 py-2.5">Sign Up</button></li>
-        </ul>
+      <ul
+        class="font-medium flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 space-y-2"
+      >
+        <li>
+          <a
+            href="index.html"
+            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100"
+            >Beanda</a
+          >
+        </li>
+        <li>
+          <a
+            href="#kursus"
+            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100"
+            >Kursus</a
+          >
+        </li>
+        <li>
+          <a
+            href="#testimoni"
+            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100"
+            >Testimoni</a
+          >
+        </li>
+        <li>
+          <a
+            href="#team"
+            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100"
+            >Tim Kami</a
+          >
+        </li>
+        <li>
+          <button
+            type="button"
+            class="w-full text-left text-indigo-600 bg-indigo-100 hover:bg-indigo-200 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-sm px-3 py-2.5"
+          >
+            Sign In
+          </button>
+        </li>
+        <li>
+          <button
+            type="button"
+            class="w-full text-left text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-sm px-3 py-2.5"
+          >
+            Sign Up
+          </button>
+        </li>
+      </ul>
     </div>
 
     <main class="container mx-auto py-12 px-4">
-        <div id="detail-container" class="bg-white rounded-lg shadow-lg p-8 md:p-12">
-            <p class="text-center text-gray-500">Memuat detail kursus...</p>
-        </div>
-        <a href="index.html" class="mt-8 inline-block bg-indigo-500 text-white font-semibold py-3 px-6 rounded-lg hover:bg-indigo-600 transition-colors duration-300">&larr; Kembali ke Daftar Kursus</a>
+      <div
+        id="detail-container"
+        class="bg-white rounded-lg shadow-lg p-8 md:p-12"
+      >
+        <p class="text-center text-gray-500">Memuat detail kursus...</p>
+      </div>
+    <a
+      href="index.html"
+      class="mt-8 inline-flex items-center bg-indigo-500 text-white font-semibold py-3 px-6 rounded-lg hover:bg-indigo-600 transition-colors duration-300"
+    >
+      <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+      </svg>
+      Kembali ke Daftar Kursus
+    </a>
+      
     </main>
 
     <footer class="bg-blue-100 py-12 px-4 lg:px-0 mt-12">
-        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div class="space-y-4">
-                <a href="#" class="flex items-center space-x-2 text-xl font-bold text-gray-900">
-                    <img src="https://via.placeholder.com/30x30/6366F1/FFFFFF?text=E" alt="E-learning Logo" class="h-8">
-                    <span>E-learning<span class="text-indigo-600">.</span></span>
-                </a>
-                <p class="text-gray-600">
-                    @2025 Agency. All Rights Reserved by GetNextJsTemplates.com
-                </p>
-                <div class="flex space-x-4">
-                    <a href="#" class="text-gray-500 hover:text-gray-900 transition-colors duration-200">
-                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33V22C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
-                        <span class="sr-only">Facebook</span>
-                    </a>
-                    <a href="#" class="text-gray-500 hover:text-gray-900 transition-colors duration-200">
-                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.002 3.797.048.843.04 1.15.148 1.465.247.54.185.92.356 1.356.672.435.317.75.7.96 1.165.21.465.344.92.395 1.425.051.505.071.676.071 4.22 0 .505-.02 1.425-.07 1.93-.05.505-.184.96-.394 1.425-.21.465-.525.848-.96 1.165-.436.317-.817.488-1.356.672-.315.099-.62.207-1.465.247-1.013.047-1.367.048-3.797.048S9.52 22.002 8.507 21.956c-.843-.04-1.15-.148-1.465-.247-.54-.185-.92-.356-1.356-.672-.435-.317-.75-.7-.96-1.165-.21-.465-.344-.92-.395-1.425-.051-.505-.071-.676-.071-4.22 0-.505.02-1.425.07-1.93.05-.505.184-.96.394-1.425-.21-.465-.525-.848-.96-1.165.436-.317.817-.488 1.356-.672.315-.099.62-.207 1.465-.247C9.52 1.998 9.874 2 12.315 2zm0 0l.005 3.518c0 2.457-1.357 3.557-3.798 3.557-.59 0-1.18-.002-1.77-.004-.59-.002-1.18-.004-1.77-.006-.59-.002-1.18-.004-1.77-.006V6.002h.005c.59 0 1.18.002 1.77.004.59.002 1.18.004 1.77.006.59.002 1.18.004 1.77.006z" clip-rule="evenodd" /></svg>
-                        <span class="sr-only">Twitter</span>
-                    </a>
-                    <a href="#" class="text-gray-500 hover:text-gray-900 transition-colors duration-200">
-                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2c2.716 0 3.058.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.217.592 1.774 1.148.557.557.895 1.114 1.148 1.774.247.638.415 1.363.465 2.428.047 1.065.06 1.407.06 4.122s-.01 3.058-.06 4.122c-.05 1.065-.217 1.79-.465 2.428-.254.66-.592 1.217-1.148 1.774-.557.557-1.114.895-1.774 1.148-.638.247-1.363.415-2.428.465-1.065.047-1.407.06-4.122.06s-3.058-.01-4.122-.06c-1.065-.05-1.79-.217-2.428-.465-.66-.254-1.217-.592-1.774-1.148-.557-.557-.895-1.114-1.148-1.774-.247-.638-.415-1.363-.465-2.428C2.01 15.058 2 14.716 2 12s.01-3.058.06-4.122c.05-1.065.217-1.79.465-2.428.254-.66.592-1.217 1.148-1.774.557-.557 1.114-.895 1.148-1.774.638-.247 1.363-.415 2.428-.465C8.942 2.01 9.284 2 12 2zm0 5.866c-2.345 0-4.246 1.901-4.246 4.246s1.901 4.246 4.246 4.246 4.246-1.901 4.246-4.246-1.901-4.246-4.246-4.246zM12 16.5c-2.485 0-4.5-2.015-4.5-4.5S9.515 7.5 12 7.5s4.5 2.015 4.5 4.5-2.015 4.5-4.5 4.5zm7.403-10.012c-.754 0-1.365-.611-1.365-1.365s.611-1.365 1.365-1.365 1.365.611 1.365 1.365-.611 1.365-1.365 1.365z" clip-rule="evenodd" /></svg>
-                        <span class="sr-only">Instagram</span>
-                    </a>
-                </div>
-            </div>
-
-            <div>
-                <h3 class="text-lg font-bold text-gray-900 mb-4">Links</h3>
-                <ul class="space-y-2 text-gray-600">
-                    <li><a href="#" class="hover:text-indigo-600 transition-colors duration-200">Beranda</a></li>
-                    <li><a href="#" class="hover:text-indigo-600 transition-colors duration-200">Kursus</a></li>
-                    <li><a href="#" class="hover:text-indigo-600 transition-colors duration-200">Mentor</a></li>
-                    <li><a href="#" class="hover:text-indigo-600 transition-colors duration-200">Testimoni</a></li>
-                    <li><a href="#" class="hover:text-indigo-600 transition-colors duration-200">Tim Kami</a></li>
-                </ul>
-            </div>
-
-            <div>
-                <h3 class="text-lg font-bold text-gray-900 mb-4">Other</h3>
-                <ul class="space-y-2 text-gray-600">
-                    <li><a href="#" class="hover:text-indigo-600 transition-colors duration-200">About Us</a></li>
-                    <li><a href="#" class="hover:text-indigo-600 transition-colors duration-200">Our Team</a></li>
-                    <li><a href="#" class="hover:text-indigo-600 transition-colors duration-200">Career</a></li>
-                    <li><a href="#" class="hover:text-indigo-600 transition-colors duration-200">Services</a></li>
-                    <li><a href="#" class="hover:text-indigo-600 transition-colors duration-200">Contact</a></li>
-                </ul>
-            </div>
-
-            <div class="space-y-4">
-                <div class="flex items-start space-x-3">
-                    <svg class="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.07-.04c1.61-.994 6.712-4.907 6.712-8.544C18.001 7.246 14.868 4 11.999 4c-2.867 0-6.001 3.246-6.001 9.807 0 3.637 5.102 7.55 6.712 8.544zM12 13a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" /></svg>
-                    <p class="text-gray-600">925 Filbert Street Pennsylvania 18072</p>
-                </div>
-                <div class="flex items-center space-x-3">
-                    <svg class="w-6 h-6 text-indigo-600 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 4.5A2.25 2.25 0 013.75 2.25h16.5A2.25 2.25 0 0122.5 4.5v15a2.25 2.25 0 01-2.25 2.25H3.75A2.25 2.25 0 011.5 19.5v-15zM20.25 7.5L12 12.75 3.75 7.5V6h16.5v1.5z" clip-rule="evenodd" /></svg>
-                    <p class="text-gray-600">+45 3411-4411</p>
-                </div>
-                <div class="flex items-center space-x-3">
-                    <svg class="w-6 h-6 text-indigo-600 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 4.5A2.25 2.25 0 013.75 2.25h16.5A2.25 2.25 0 0122.5 4.5v15a2.25 2.25 0 01-2.25 2.25H3.75A2.25 2.25 0 011.5 19.5v-15zM20.25 7.5L12 12.75 3.75 7.5V6h16.5v1.5z" clip-rule="evenodd" /></svg>
-                    <p class="text-gray-600">info@gmail.com</p>
-                </div>
-            </div>
+      <div
+        class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+      >
+        <div class="space-y-4">
+          <a
+            href="index.html"
+            class="flex items-center space-x-2 text-xl font-bold text-gray-900"
+          >
+            <img
+              src="assets/img/KURSUSPEDIAlogo.png"
+              alt="KursusPedia Logo"
+              class="h-8"
+            />
+            <span>KursusPedia<span class="text-indigo-600">.</span></span>
+          </a>
+          <p class="text-gray-600">
+            @2025 Agency. All Rights Reserved by GetNextJsTemplates.com
+          </p>
+          <div class="flex space-x-4">
+            <a
+              href="#"
+              class="text-gray-500 hover:text-gray-900 transition-colors duration-200"
+            >
+              <svg
+                class="w-6 h-6"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33V22C18.343 21.128 22 16.991 22 12z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="sr-only">Facebook</span>
+            </a>
+            <a
+              href="#"
+              class="text-gray-500 hover:text-gray-900 transition-colors duration-200"
+            >
+              <svg
+                class="w-6 h-6"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12.315 2c2.43 0 2.784.002 3.797.048.843.04 1.15.148 1.465.247.54.185.92.356 1.356.672.435.317.75.7.96 1.165.21.465.344.92.395 1.425.051.505.071.676.071 4.22 0 .505-.02 1.425-.07 1.93-.05.505-.184.96-.394 1.425-.21.465-.525.848-.96 1.165-.436.317-.817.488-1.356.672-.315.099-.62.207-1.465.247-1.013.047-1.367.048-3.797.048S9.52 22.002 8.507 21.956c-.843-.04-1.15-.148-1.465-.247-.54-.185-.92-.356-1.356-.672-.435-.317-.75-.7-.96-1.165-.21-.465-.344-.92-.395-1.425-.051-.505-.071-.676-.071-4.22 0-.505.02-1.425.07-1.93.05-.505.184-.96.394-1.425-.21-.465-.525-.848-.96-1.165.436-.317.817-.488 1.356-.672.315-.099.62-.207 1.465-.247C9.52 1.998 9.874 2 12.315 2zm0 0l.005 3.518c0 2.457-1.357 3.557-3.798 3.557-.59 0-1.18-.002-1.77-.004-.59-.002-1.18-.004-1.77-.006-.59-.002-1.18-.004-1.77-.006V6.002h.005c.59 0 1.18.002 1.77.004.59.002 1.18.004 1.77.006.59.002 1.18.004 1.77.006z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="sr-only">Twitter</span>
+            </a>
+            <a
+              href="#"
+              class="text-gray-500 hover:text-gray-900 transition-colors duration-200"
+            >
+              <svg
+                class="w-6 h-6"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12 2c2.716 0 3.058.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.217.592 1.774 1.148.557.557.895 1.114 1.148 1.774.247.638.415 1.363.465 2.428.047 1.065.06 1.407.06 4.122s-.01 3.058-.06 4.122c-.05 1.065-.217 1.79-.465 2.428-.254.66-.592 1.217-1.148 1.774-.557.557-1.114.895-1.774 1.148-.638.247-1.363.415-2.428.465-1.065.047-1.407.06-4.122.06s-3.058-.01-4.122-.06c-1.065-.05-1.79-.217-2.428-.465-.66-.254-1.217-.592-1.774-1.148-.557-.557-.895-1.114-1.148-1.774-.247-.638-.415-1.363-.465-2.428C2.01 15.058 2 14.716 2 12s.01-3.058.06-4.122c.05-1.065.217-1.79.465-2.428.254-.66.592-1.217 1.148-1.774.557-.557 1.114-.895 1.148-1.774.638-.247 1.363-.415 2.428-.465C8.942 2.01 9.284 2 12 2zm0 5.866c-2.345 0-4.246 1.901-4.246 4.246s1.901 4.246 4.246 4.246 4.246-1.901 4.246-4.246-1.901-4.246-4.246-4.246zM12 16.5c-2.485 0-4.5-2.015-4.5-4.5S9.515 7.5 12 7.5s4.5 2.015 4.5 4.5-2.015 4.5-4.5 4.5zm7.403-10.012c-.754 0-1.365-.611-1.365-1.365s.611-1.365 1.365-1.365 1.365.611 1.365 1.365-.611 1.365-1.365 1.365z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="sr-only">Instagram</span>
+            </a>
+          </div>
         </div>
 
-        <div class="max-w-6xl mx-auto border-t border-gray-300 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
-            <div class="mb-4 md:mb-0">
-                <a href="#" class="hover:text-indigo-600 transition-colors duration-200 mr-4">Privacy policy</a>
-                <a href="#" class="hover:text-indigo-600 transition-colors duration-200">Terms & conditions</a>
-            </div>
-            <div>
-                Distributed by <a href="https://themewagon.com/" target="_blank" class="hover:text-indigo-600 transition-colors duration-200">ThemeWagon</a>
-            </div>
+        <div>
+          <h3 class="text-lg font-bold text-gray-900 mb-4">Links</h3>
+          <ul class="space-y-2 text-gray-600">
+            <li>
+              <a
+                href="#home"
+                class="hover:text-indigo-600 transition-colors duration-200"
+                >Beranda</a
+              >
+            </li>
+            <li>
+              <a
+                href="#kursus"
+                class="hover:text-indigo-600 transition-colors duration-200"
+                >Kursus</a
+              >
+            </li>
+            <li>
+              <a
+                href="#testimoni"
+                class="hover:text-indigo-600 transition-colors duration-200"
+                >Testimoni</a
+              >
+            </li>
+            <li>
+              <a
+                href="#team"
+                class="hover:text-indigo-600 transition-colors duration-200"
+                >Tim Kami</a
+              >
+            </li>
+          </ul>
         </div>
+
+        <div>
+          <h3 class="text-lg font-bold text-gray-900 mb-4">Other</h3>
+          <ul class="space-y-2 text-gray-600">
+            <li>
+              <a
+                href="#"
+                class="hover:text-indigo-600 transition-colors duration-200"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-indigo-600 transition-colors duration-200"
+                >Our Team</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-indigo-600 transition-colors duration-200"
+                >Career</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-indigo-600 transition-colors duration-200"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-indigo-600 transition-colors duration-200"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="space-y-4">
+        <div class="flex items-center space-x-3">
+            <i class="fa-solid fa-phone text-indigo-600 text-lg"></i>
+            <p class="text-gray-600">+45 3411-4411</p>
+        </div>
+          <div class="flex items-center space-x-3">
+            <svg
+              class="w-6 h-6 text-indigo-600 flex-shrink-0"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1.5 4.5A2.25 2.25 0 013.75 2.25h16.5A2.25 2.25 0 0122.5 4.5v15a2.25 2.25 0 01-2.25 2.25H3.75A2.25 2.25 0 011.5 19.5v-15zM20.25 7.5L12 12.75 3.75 7.5V6h16.5v1.5z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <p class="text-gray-600">info@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="max-w-6xl mx-auto border-t border-gray-300 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600"
+      >
+        <div class="mb-4 md:mb-0">
+          <a
+            href="#"
+            class="hover:text-indigo-600 transition-colors duration-200 mr-4"
+            >Privacy policy</a
+          >
+          <a
+            href="#"
+            class="hover:text-indigo-600 transition-colors duration-200"
+            >Terms & conditions</a
+          >
+        </div>
+        <div>
+          Distributed by
+          <a
+            href="https://themewagon.com/"
+            target="_blank"
+            class="hover:text-indigo-600 transition-colors duration-200"
+            >ThemeWagon</a
+          >
+        </div>
+      </div>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
     <script>
-        // Ambil id dari query string
-        const params = new URLSearchParams(window.location.search);
-        const id = params.get('id');
+      // Ambil id dari query string
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get("id");
 
-        fetch('assets/data/kursus.json')
-            .then(res => {
-                if (!res.ok) {
-                    throw new Error(`HTTP error! status: ${res.status}`);
-                }
-                return res.json();
-            })
-            .then(data => {
-                const course = data.find(item => String(item.id) === id);
-                const container = document.getElementById('detail-container');
-                if (!course) {
-                    container.innerHTML = '<p class="text-red-500 text-center text-xl py-10">Kursus tidak ditemukan.</p>';
-                    return;
-                }
+      fetch("assets/data/kursus2.json")
+        .then((res) => {
+          if (!res.ok) {
+            throw new Error(`HTTP error! status: ${res.status}`);
+          }
+          return res.json();
+        })
+        .then((data) => {
+          const course = data.find((item) => String(item.id) === id);
+          const container = document.getElementById("detail-container");
+          if (!course) {
+            container.innerHTML =
+              '<p class="text-red-500 text-center text-xl py-10">Kursus tidak ditemukan.</p>';
+            return;
+          }
 
-                container.innerHTML = `
+          container.innerHTML = `
                     <div class="flex flex-col lg:flex-row gap-8">
                         <div class="lg:w-2/3">
-                            <img class="w-full h-auto max-h-96 object-cover rounded-lg mb-6 shadow-md" src="${course.gambar || 'https://via.placeholder.com/800x450/4F46E5/FFFFFF?text=Course+Thumbnail'}" alt="${course.nama_kursus || 'No Title'}">
+                            <img class="w-full h-auto max-h-96 object-cover rounded-lg mb-6 shadow-md" src="${
+                              course.gambar ||
+                              "https://via.placeholder.com/800x450/4F46E5/FFFFFF?text=Course+Thumbnail"
+                            }" alt="${course.nama || "No Title"}">
 
-                            <h1 class="text-4xl lg:text-5xl font-extrabold text-gray-900 mb-4 leading-tight">${course.nama_kursus ?? 'Untitled Course'}</h1>
+                            <h1 class="text-4xl lg:text-5xl font-extrabold text-gray-900 mb-4 leading-tight">${
+                              course.nama ?? "Untitled Course"
+                            }</h1>
+                            ${
+                              course.kategori
+                                ? `<span class="inline-block bg-indigo-100 text-indigo-700 text-xs font-semibold px-3 py-1 rounded-full mb-6">${course.kategori}</span>`
+                                : ""
+                            }
 
                             <div class="flex flex-col sm:flex-row sm:items-center sm:space-x-4 text-gray-600 mb-6">
                                 <div class="flex items-center">
-                                    <span class="text-yellow-500 font-semibold text-lg mr-1">${course.rating ?? 0}</span>
-                                    <div class="flex">
-                                        ${[...Array(5)].map((_, i) => `
-                                            <svg class="w-5 h-5 ${(i < Math.round(course.rating ?? 0)) ? 'text-yellow-400' : 'text-gray-300'}" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.538 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.538-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.927 8.73c-.783-.57-.38-1.81.588-1.81h3.462a1 1 0 00.95-.69l1.07-3.292z"></path></svg>
-                                        `).join('')}
+                                    <span class="text-yellow-300 font-semibold text-lg mr-1">${
+                                      course.rating ?? 0
+                                    }</span>
+                                    <div class="flex items-center space-x-1">
+                                        <div class="flex">
+                                            ${(() => {
+                                                const rating = course.rating ?? 0;
+                                                const stars = [];
+                                                const fullStars =
+                                                Math.floor(rating); // 4
+                                                const fractional =
+                                                rating - fullStars; // 0.3
+                                                const percentage = Math.round(
+                                                fractional * 100
+                                                ); // 30
+
+                                                for (let i = 0; i < 5; i++) {
+                                                if (i < fullStars) {
+                                                    // Full star
+                                                    stars.push(`
+                                                    <svg class="w-5 h-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20">
+                                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.538 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.538-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.927 8.73c-.783-.57-.38-1.81.588-1.81h3.462a1 1 0 00.95-.69l1.07-3.292z"/>
+                                                    </svg>`);
+                                                } else if (
+                                                    i === fullStars &&
+                                                    fractional > 0
+                                                ) {
+                                                    // Partial star using gradient mask
+                                                    stars.push(`
+                                                    <svg class="w-5 h-5" viewBox="0 0 20 20">
+                                                    <defs>
+                                                        <linearGradient id="grad${course.id}">
+                                                        <stop offset="${percentage}%" stop-color="#facc15" />
+                                                        <stop offset="${percentage}%" stop-color="#d1d5db" />
+                                                        </linearGradient>
+                                                    </defs>
+                                                    <path fill="url(#grad${course.id})" d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.538 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.538-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.927 8.73c-.783-.57-.38-1.81.588-1.81h3.462a1 1 0 00.95-.69l1.07-3.292z"/>
+                                                    </svg>
+                                                `);
+                                                } else {
+                                                    // Empty star
+                                                    stars.push(`
+                                                    <svg class="w-5 h-5 text-gray-300" fill="currentColor" viewBox="0 0 20 20">
+                                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.538 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.538-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.927 8.73c-.783-.57-.38-1.81.588-1.81h3.462a1 1 0 00.95-.69l1.07-3.292z"/>
+                                                    </svg>`);
+                                                }
+                                                }
+                                                return stars.join("");
+                                            })()}
+                                        </div>
                                     </div>
-                                    <span class="ml-2 text-sm text-gray-500">(${course.jumlah_reviews ?? 0} Reviews)</span>
                                 </div>
-                                <span class="hidden sm:inline text-gray-400">|</span>
-                                <div class="flex items-center mt-2 sm:mt-0">
-                                    <i class="fa-solid fa-book-open text-indigo-500 mr-2"></i>
-                                    <span>${course.classes ?? 0} Kelas</span>
-                                </div>
+                                
                                 <span class="hidden sm:inline text-gray-400">|</span>
                                 <div class="flex items-center mt-2 sm:mt-0">
                                     <i class="fa-solid fa-users text-indigo-500 mr-2"></i>
                                     <span>${course.jumlah_siswa ?? 0} Siswa</span>
                                 </div>
+                                ${
+                                  course.sertifikasi === true
+                                    ? `<span class="flex items-center mt-2 sm:mt-0 ml-0 sm:ml-4 bg-green-100 text-green-700 text-xs font-semibold px-3 py-1 rounded-full">
+                                        <i class="fa-solid fa-certificate text-green-500 mr-2"></i>
+                                        Tersertifikasi
+                                      </span>`
+                                    : ""
+                                }
                             </div>
 
-                            ${course.bestSeller ? `<div class="inline-block bg-yellow-400 text-white text-sm font-semibold px-4 py-2 rounded-full uppercase tracking-wider mb-4 shadow">Best Seller</div>` : ''}
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                ${(() => {
+                                  if (course.online && course.offline) {
+                                    return `
+                                            <span class="inline-flex items-center bg-gradient-to-r from-green-100 via-green-200 to-green-300 text-green-900 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider shadow-sm"><i class="fa-solid fa-globe mr-1"></i> Online</span>
+                                            <span class="inline-flex items-center bg-gradient-to-r from-indigo-200 via-indigo-300 to-indigo-400 text-indigo-900 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider shadow-sm"><i class="fa-solid fa-building mr-1"></i> Offline</span>
+                                        `;
+                                  } else if (course.online) {
+                                    return `
+                                            <span class="inline-flex items-center bg-gradient-to-r from-green-100 via-green-200 to-green-300 text-green-900 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider shadow-sm"><i class="fa-solid fa-globe mr-1"></i> Online</span>
+                                        `;
+                                  } else if (course.offline) {
+                                    return `
+                                            <span class="inline-flex items-center bg-gradient-to-r from-indigo-200 via-indigo-300 to-indigo-400 text-indigo-900 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider shadow-sm"><i class="fa-solid fa-building mr-1"></i> Offline</span>
+                                        `;
+                                  } else {
+                                    return "";
+                                  }
+                                })()}
+                            </div>
+                            ${
+                              course.lokasi
+                                ? `
+                            <div class="flex items-center mb-4">
+                                <i class="fa-solid fa-location-dot text-indigo-500 mr-2"></i>
+                                <span class="text-gray-700 text-sm">${course.lokasi}</span>
+                                ${
+                                  course.tipe
+                                    ? `<span class="ml-4 flex items-center ">
+                                        <i class="fa-solid fa-layer-group text-indigo-500 mr-2"></i>
+                                        <span class="text-gray-700 text-sm">${course.tipe}</span>
+                                      </span>`
+                                    : ""
+                                }
+                            </div>
+                            `
+                                : ""
+                            }
 
                             <h2 class="text-2xl font-bold text-gray-900 mb-4 pt-4 border-t border-gray-200 mt-6">Deskripsi Kursus</h2>
                             <p class="text-gray-700 leading-relaxed mb-6">
-                                ${course.deskripsi ?? 'Tidak ada deskripsi.'}
+                                ${course.deskripsi ?? "Tidak ada deskripsi."}
                             </p>
 
-                            ${(course.apa_yang_akan_dipelajari && course.apa_yang_akan_dipelajari.length > 0) ? `
-                            <h2 class="text-2xl font-bold text-gray-900 mb-4">Apa yang Akan Anda Pelajari</h2>
-                            <ul class="grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-700 mb-6">
-                                ${course.apa_yang_akan_dipelajari.map(item => `
-                                    <li class="flex items-center space-x-2">
+                            ${
+                              course.fokus && course.fokus.length > 0
+                                ? `
+                            <h2 class="text-2xl font-bold text-gray-900 mb-4">Cakupan Pembelajaran</h2>
+                            <ul class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-4 text-gray-700 mb-6">
+                                ${course.fokus
+                                  .map(
+                                    (item) => `
+                                    <li class="flex items-center space-x-2 bg-indigo-50 rounded-lg px-4 py-3 shadow-sm">
                                         <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
                                         <span>${item}</span>
                                     </li>
-                                `).join('')}
+                                `
+                                  )
+                                  .join("")}
                             </ul>
-                            ` : ''}
+                            `
+                                : ""
+                            }
                         </div>
 
                         <div class="lg:w-1/3 bg-gray-50 p-6 rounded-lg shadow-xl flex-shrink-0 self-start sticky top-20">
                             <div class="mb-6 pb-4 border-b border-gray-200">
                                 <span class="text-gray-600 text-sm block mb-1">Harga Kursus:</span>
-                                <p class="text-4xl font-extrabold text-indigo-600">Rp${(course.harga ?? '0').toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}</p>
+                                <p class="text-3xl font-extrabold text-indigo-600">
+                                    ${
+                                        (course.harga_min && course.harga_max)
+                                            ? (
+                                                course.harga_min === course.harga_max
+                                                    ? "Rp " + course.harga_min.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
+                                                    : "Rp " + course.harga_min.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") +
+                                                      " - Rp " + course.harga_max.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
+                                              )
+                                            : ((course.harga_min || course.harga_max)
+                                                ? "Rp " + ((course.harga_min || course.harga_max).toString().replace(/\B(?=(\d{3})+(?!\d))/g, "."))
+                                                : "Belum tersedia"
+                                              )
+                                    }
+                                </p>
                             </div>
 
                             <div class="flex items-center space-x-4 mb-6 pb-4 border-b border-gray-200">
-                                <img class="w-16 h-16 rounded-full object-cover border-2 border-indigo-300" src="${course.foto_pengajar || 'https://via.placeholder.com/64x64/D1D5DB/4B5563?text=Mentor'}" alt="${course.nama_pengajar || 'No Mentor'}">
+                                <img class="w-16 h-16 rounded-full object-cover border-2 border-indigo-300" src="${
+                                  course.gambar ||
+                                  "https://via.placeholder.com/64x64/D1D5DB/4B5563?text=Mentor"
+                                }" alt="${course.nama || "No Mentor"}">
                                 <div>
-                                    <p class="text-gray-600 text-sm">Diajarkan oleh:</p>
-                                    <h4 class="text-xl font-bold text-gray-900">${course.nama_pengajar ?? 'Unknown Mentor'}</h4>
-                                    <p class="text-gray-600 text-sm">${course.jabatan_pengajar ?? 'Instruktur'}</p>
+                                    <p class="text-gray-600 text-sm">Disediakan oleh:</p>
+                                    <h4 class="text-xl font-bold text-gray-900">${
+                                      course.nama ?? "Unknown Mentor"
+                                    }</h4>
                                 </div>
                             </div>
 
-                            <button class="w-full bg-indigo-600 text-white py-4 rounded-lg font-bold text-lg hover:bg-indigo-700 transition-colors duration-300 mb-4 shadow-lg">
-                                Daftar Sekarang
-                            </button>
+                            <div class="flex flex-col space-y-2 mb-6 pb-4 border-b border-gray-200">
+                                <span class="text-gray-600 text-sm">Informasi Kontak:</span>
+                                <div class="flex items-center space-x-2">
+                                    <i class="fa-solid fa-envelope text-indigo-500"></i>
+                                    <span>${
+                                      course.kontak.email ?? "Tidak tersedia"
+                                    }</span>
+                                </div>
+                                <div class="flex items-center space-x-2">
+                                    <i class="fa-solid fa-phone text-indigo-500"></i>
+                                    <span>${
+                                      course.kontak.telepon ?? "Tidak tersedia"
+                                    }</span>
+                                </div>
+                                <div class="flex items-center space-x-2">
+                                    <i class="fa-brands fa-whatsapp text-indigo-500"></i>
+                                    <span>${
+                                        course.kontak.wa ?? "Tidak tersedia"
+                                    }</span>
+                                </div>
+                            </div>
 
-                            <button class="w-full bg-white border border-indigo-600 text-indigo-600 py-4 rounded-lg font-bold text-lg hover:bg-indigo-50 transition-colors duration-300 shadow">
-                                Tambah ke Keranjang
+                            ${
+                              course.website
+                                ? `
+                            <a href="${course.website}" target="_blank" rel="noopener noreferrer" class="w-full block bg-indigo-600 text-white py-4 rounded-lg font-bold text-lg text-center hover:bg-indigo-700 transition-colors duration-300 mb-4 shadow-lg">
+                                Kunjungi Website
+                            </a>
+                            `
+                                : `
+                            <button class="w-full bg-gray-300 text-gray-600 py-4 rounded-lg font-bold text-lg cursor-not-allowed mb-4 shadow-lg" disabled>
+                                Website Tidak Tersedia
                             </button>
-
-                            ${(course.fitur_kursus && course.fitur_kursus.length > 0) ? `
+                            `
+                            }
+                           
+                            ${
+                              course.metode_pembelajaran &&
+                              course.metode_pembelajaran.length > 0
+                                ? `
                             <div class="mt-8 pt-4 border-t border-gray-200">
-                                <h4 class="text-lg font-bold text-gray-900 mb-3">Fitur Kursus</h4>
+                                <h4 class="text-lg font-bold text-gray-900 mb-3">Metode Pembelajaran</h4>
                                 <ul class="space-y-2 text-gray-700">
-                                    ${course.fitur_kursus.map(item => `
+                                    ${course.metode_pembelajaran
+                                      .map(
+                                        (item) => `
                                         <li class="flex items-center space-x-2">
                                             <svg class="w-5 h-5 text-indigo-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                                             <span>${item}</span>
                                         </li>
-                                    `).join('')}
+                                    `
+                                      )
+                                      .join("")}
                                 </ul>
                             </div>
-                            ` : ''}
+                            `
+                                : ""
+                            }
                         </div>
                     </div>
                 `;
-            })
-            .catch(error => {
-                console.error('Error fetching course data:', error);
-                const container = document.getElementById('detail-container');
-                container.innerHTML = '<p class="text-red-500 text-center text-xl py-10">Gagal memuat detail kursus. Silakan coba lagi.</p>';
-            });
+        })
+        .catch((error) => {
+          console.error("Error fetching course data:", error);
+          const container = document.getElementById("detail-container");
+          container.innerHTML =
+            '<p class="text-red-500 text-center text-xl py-10">Gagal memuat detail kursus. Silakan coba lagi.</p>';
+        });
     </script>
-</body>
+  </body>
 </html>

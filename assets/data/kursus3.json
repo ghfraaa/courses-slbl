@@ -1,0 +1,142 @@
+ [{
+        "nama": "Hacktiv8",
+        "kategori": "Teknologi & Pemrograman",
+        "lokasi": ["Jakarta", "Online"],
+        "fokus": ["Web development", "Data science", "Fullstack bootcamp"],
+        "website": "https://www.hacktiv8.com"
+    },
+    {
+        "nama": "Binar Academy",
+        "kategori": "Teknologi & Pemrograman",
+        "lokasi": ["Jakarta", "Online"],
+        "fokus": ["Product management", "Software engineering", "UI/UX", "Data"],
+        "website": "https://www.binaracademy.com"
+    },
+    {
+        "nama": "Purwadhika Digital Technology School",
+        "kategori": "Teknologi & Pemrograman",
+        "lokasi": ["Jakarta", "BSD", "Batam", "Bandung", "Surabaya"],
+        "fokus": ["UI/UX", "Software engineering", "Digital marketing"],
+        "website": "https://purwadhika.com"
+    },
+    {
+        "nama": "Dicoding Indonesia",
+        "kategori": "Teknologi & Pemrograman",
+        "lokasi": ["Online"],
+        "fokus": ["Android", "Machine learning", "Cloud computing"],
+        "website": "https://www.dicoding.com"
+    },
+    {
+        "nama": "DUMET School",
+        "kategori": "Desain & Kreatif",
+        "lokasi": ["Jakarta", "Online"],
+        "fokus": ["Web design", "Graphic design", "Video editing"],
+        "website": "https://www.dumetschool.com"
+    },
+    {
+        "nama": "Harisenin.com",
+        "kategori": "Desain & Kreatif",
+        "lokasi": ["Online"],
+        "fokus": ["UI/UX", "Data science", "Design thinking"],
+        "website": "https://www.harisenin.com"
+    },
+    {
+        "nama": "RevoU",
+        "kategori": "Bisnis & Digital Marketing",
+        "lokasi": ["Online"],
+        "fokus": ["Digital marketing", "Product management", "Data analytics"],
+        "website": "https://revou.co"
+    },
+    {
+        "nama": "Sekolah.mu",
+        "kategori": "Bisnis & Digital Marketing",
+        "lokasi": ["Online", "Hybrid"],
+        "fokus": ["Karir", "Bisnis", "Teknologi", "Pendidikan"],
+        "website": "https://www.sekolah.mu"
+    },
+    {
+        "nama": "LIA (Lembaga Indonesia Amerika)",
+        "kategori": "Kursus Bahasa",
+        "lokasi": ["Banyak cabang di seluruh Indonesia"],
+        "fokus": ["Bahasa Inggris"],
+        "website": "https://www.lia.or.id"
+    },
+    {
+        "nama": "ILP (International Language Programs)",
+        "kategori": "Kursus Bahasa",
+        "lokasi": ["Jakarta", "Kota besar lainnya"],
+        "fokus": ["Bahasa Inggris"],
+        "website": "https://ilp.co.id"
+    },
+    {
+        "nama": "Algostudio Academy",
+        "kategori": "Teknologi & Pemrograman",
+        "lokasi": ["Yogyakarta", "Online"],
+        "fokus": ["Mobile development", "Frontend web"],
+        "website": "https://academy.algostudio.net"
+    },
+    {
+        "nama": "Digital Talent Scholarship - Kominfo",
+        "kategori": "Pemerintah / Sertifikasi",
+        "lokasi": ["Online"],
+        "fokus": ["Digital literacy", "Programming", "Cloud", "AI"],
+        "website": "https://digitalent.kominfo.go.id"
+    },
+    {
+        "nama": "Glints ExpertClass",
+        "kategori": "Karier & Profesional",
+        "lokasi": ["Online"],
+        "fokus": ["Soft skill", "Manajemen karier", "Digital tools"],
+        "website": "https://glints.com/id/expert-class"
+    },
+    {
+        "nama": "Zenius Education",
+        "kategori": "Pendidikan & Sekolah",
+        "lokasi": ["Online"],
+        "fokus": ["Belajar SD-SMA", "UTBK", "STAN", "CPNS"],
+        "website": "https://zenius.net"
+    },
+    {
+        "nama": "QuBisa",
+        "kategori": "Karier & Sertifikasi",
+        "lokasi": ["Online"],
+        "fokus": ["Keterampilan kerja", "Manajemen", "Public speaking"],
+        "website": "https://qubisa.com"
+    },
+    {
+        "nama": "MyEduSolve",
+        "kategori": "Sertifikasi Internasional",
+        "lokasi": ["Online"],
+        "fokus": ["Microsoft Office Specialist", "Adobe Certified", "PMI"],
+        "website": "https://myedusolve.com"
+    },
+    {
+        "nama": "Cakap",
+        "kategori": "Bahasa & Soft Skill",
+        "lokasi": ["Online"],
+        "fokus": ["Bahasa Inggris", "Bahasa Jepang", "Bahasa Mandarin"],
+        "website": "https://www.cakap.com"
+    },
+    {
+        "nama": "Bahaso",
+        "kategori": "Bahasa",
+        "lokasi": ["Online"],
+        "fokus": ["Bahasa Inggris", "Bahasa Indonesia untuk asing"],
+        "website": "https://bahaso.com"
+    },
+    {
+        "nama": "Codepolitan",
+        "kategori": "Teknologi & Pemrograman",
+        "lokasi": ["Online"],
+        "fokus": ["Pemrograman web", "Mobile", "Game dev"],
+        "website": "https://codepolitan.com"
+    },
+    {
+        "nama": "Kelas.com",
+        "kategori": "Kursus Umum",
+        "lokasi": ["Online"],
+        "fokus": ["UI/UX", "Marketing", "Startup", "Programming"],
+        "website": "https://kelas.com"
+    }
+ ]
+

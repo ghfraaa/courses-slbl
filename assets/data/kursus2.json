@@ -1,0 +1,738 @@
+[
+  {
+    "id": 1,
+    "nama": "JayaNegara Ambon",
+    "gambar": "assets/img/jayanegara.jpg",
+    "kategori": "Lembaga Kursus dan Pelatihan Jayanegara Ambon",
+    "online": true,
+    "offline": true,
+    "lokasi": [
+      "Jl. pandan Katuri II Tantui Bawah, Pandan Kasturi, Kec.Sirimau, Kota Ambon, Maluku"
+    ],
+    "fokus": [
+      "Teknik Komputer",
+      "Administrasi Perkantoran",
+      "Manajemen Informatika"
+    ],
+    "tipe": "Reguler",
+    "rating": 4.5,
+    "jumlah_siswa": 200,
+    "Akreditas": "A",
+    "biaya": "Berbayar",
+    "metode_pembelajaran": [
+      "kelas langsung",
+      "kelas online"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "email": "Ikp.jayanegara@gmail.com",
+      "telepon": "(0911) 348319",
+      "wa": "082301433846"
+    },
+    "deskripsi": "LKP Jayanegara merupakan salah satu sekolah jenjang kursus berstatus Swasta. Dengan adanya keberadaan LKP Jayanegara, diharapkan dapat memberikan konstribusi dalam mencerdaskan anak bangsa di wilayah Kec. Sirimau, Kota Ambon."
+  },
+  {
+    "id": 2,
+    "nama": "Kampung Inggris Ambon",
+    "gambar": "assets/img/kampung_inggris_ambon.jpg",
+    "kategori": "Kursus Bahasa Inggris",
+    "online": false,
+    "offline": true,
+    "lokasi": [
+      "GEDUNG ATC Lt. 3, Jl. A.Y Patty No. 94, Ambon"
+    ],
+    "fokus": [
+      "Kursus Umum",
+      "Intensif",
+      "Persiapan Ujian",
+      "Bisnis English",
+      "Konfersasi Informal"
+    ],
+    "website": "https://kampunginggrisambon.com/",
+    "tipe": "Privat",
+    "rating": 4.5,
+    "jumlah_siswa": 1000,
+    "biaya": "Berbayar",
+    "metode_pembelajaran": [
+      "Kelas Langsung"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "wa": "+62 821-9861-9918"
+    },
+    "deskripsi": "Kampung Inggris Ambon menyediakan berbagai program kursus bahasa Inggris untuk semua kalangan, mulai dari anak-anak, remaja, hingga orang dewasa. Dapatkan layanan pembelajaran terbaik dengan kami."
+  },
+  {
+    "id": 3,
+    "nama": "Ganesha Operation Dipenogoro Ambon",
+    "gambar": "assets/img/ganesha.jpg",
+    "kategori": "Bimbingan Belajar",
+    "online": true,
+    "offline": true,
+    "lokasi": [
+      "Jl.Dipenogoro No.22, Kel Ahusen, Kec. Sirimau, Kota Ambon, Maluku"
+    ],
+    "fokus": [
+      "Bimbel SD",
+      "Bimbel SMP",
+      "Bimbel SMA",
+      "Persiapan Perguruan Tinggi dan Universitas"
+    ],
+    "website": "https://ganeshaoperation.com/",
+    "tipe": "Privat",
+    "rating": 5.0,
+    "jumlah_siswa": 50000,
+    "biaya": "Berbayar",
+    "metode_pembelajaran": [
+      "Kelas Langsung",
+      "Kelas Online"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "email": "officialgopusat@gmail.com",
+      "telepon": "022-4218177",
+      "wa" : "+62 811-2389-149"
+    },
+    "deskripsi": "Ganesha Operation adalah bimbingan belajar tatap muka berbasis teknologi online yang telah berhasil mengantarkan 50.000 lebih kelulusan siswa ke PTN dan PT Kedinasan, 2.500 lebih di antaranya diterima di kedokteran pada tahun 2024 dan angka tersebut terus meningkat setiap tahunnya."
+  },
+  {
+    "id": 4,
+    "nama": "Purwadhika Digital Technology School",
+    "gambar": "assets/img/purwadhika.jpg",
+    "kategori": "Teknologi & Pemrograman",
+    "online": true,
+    "offline": true,
+    "lokasi": [
+      "Jakarta",
+      "BSD",
+      "Batam",
+      "Bandung",
+      "Surabaya"
+    ],
+    "fokus": [
+      "UI/UX",
+      "Software engineering",
+      "Digital marketing"
+    ],
+    "website": "https://purwadhika.com",
+    "tipe": "Reguler",
+    "rating": 4.5,
+    "jumlah_siswa": 40000,
+    "biaya": "Gratis & Berbayar",
+    "harga_min": "0",
+    "harga_max": "25.000.000",
+    "metode_pembelajaran": [
+      "Live Class",
+      "Project Based"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "email": "info@purwadhika.com",
+      "telepon": "021-50501361",
+      "wa" : "+62 851-8602-9606"
+    },
+    "deskripsi": "Purwadhika adalah salah satu institusi teknologi terkemuka di Indonesia yang menyediakan kursus di bidang pengembangan perangkat lunak, desain UI/UX, dan digital marketing. Tersedia di berbagai kota besar serta secara online."
+  },
+  {
+    "id": 5,
+    "nama": "Hacktiv8",
+    "gambar": "assets/img/hacktiv8.jpg",
+    "kategori": "Teknologi & Pemrograman",
+    "online": true,
+    "offline": true,
+    "lokasi": [
+      "Jakarta"
+    ],
+    "fokus": [
+      "Web development",
+      "Data science",
+      "Fullstack bootcamp"
+    ],
+    "website": "https://www.hacktiv8.com",
+    "tipe": "Bootcamp",
+    "rating": 4.6,
+    "jumlah_siswa": 3000,
+    "biaya": "Berbayar",
+    "harga_min": "14.000.000",
+    "harga_max": "16.000.000",
+    "metode_pembelajaran": [
+      "Live Class",
+      "Project Based"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "email": "info@hacktiv8.com",
+      "telepon": "021-80675787",
+      "wa": "+62 821-8067-5787"
+    },
+    "deskripsi": "Hacktiv8 adalah coding bootcamp intensif yang berlokasi di Jakarta dan tersedia juga secara online. Mereka menyediakan program pelatihan teknologi terkini seperti web development dan data science untuk mempersiapkan peserta masuk ke industri teknologi."
+  },
+  {
+    "id": 6,
+    "nama": "Binar Academy",
+    "gambar": "assets/img/binar_academy.jpg",
+    "kategori": "Teknologi & Pemrograman",
+    "online": true,
+    "offline": true,
+    "lokasi": [
+      "Jakarta"
+    ],
+    "fokus": [
+      "Product management",
+      "Software engineering",
+      "UI/UX",
+      "Data"
+    ],
+    "website": "https://www.binaracademy.com",
+    "tipe": "Reguler",
+    "rating": 4.4,
+    "jumlah_siswa": 2500,
+    "biaya": "Berbayar",
+    "metode_pembelajaran": [
+      "Live Class",
+      "Project Based"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "email": "info@binaracademy.com",
+      "telepon": "021-50884661",
+      "wa": "+62 813-2812-7358"
+    },
+    "deskripsi": "Binar Academy menawarkan berbagai pelatihan digital seperti software engineering dan UI/UX design, dengan pendekatan yang fleksibel dan kolaboratif. Kursus ditujukan untuk membekali talenta digital siap kerja."
+  },
+  {
+    "id": 7,
+    "nama": "Dicoding Indonesia",
+    "gambar": "assets/img/dicoding.jpg",
+    "kategori": "Teknologi & Pemrograman",
+    "online": true,
+    "offline": false,
+    "lokasi": [],
+    "fokus": [
+      "Android",
+      "Machine learning",
+      "Cloud computing"
+    ],
+    "website": "https://www.dicoding.com",
+    "tipe": "Mandiri",
+    "rating": 4.8,
+    "jumlah_siswa": 500000,
+    "biaya": "Gratis & Berbayar",
+    "harga_min": "0",
+    "harga_max": "2.500.000",
+    "metode_pembelajaran": [
+      "Self-paced",
+      "Project Based",
+      "Sertifikasi Industri"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "email": "academy@dicoding.com",
+      "telepon": "021-0000000"
+    },
+    "deskripsi": "Dicoding adalah platform pembelajaran online yang menyediakan kursus di bidang teknologi informasi, khususnya pengembangan aplikasi Android, machine learning, dan cloud computing. Mereka menawarkan kursus dengan sertifikasi resmi dari Google dan mitra industri lainnya."
+  },
+  {
+    "id": 8,
+    "nama": "DUMET School",
+    "gambar": "assets/img/dumet.png",
+    "kategori": "Desain & Kreatif",
+    "online": true,
+    "offline": true,
+    "lokasi": [
+      "Jakarta Barat",
+      "Depok"
+    ],
+    "fokus": [
+      "SEO expert",
+      "Digital marketing",
+      "Graphic design",
+      "Fullstack developer",
+      "Frontend developer",
+      "Backend developer",
+      "Mobile developer",
+      "Motion graphic"
+    ],
+    "website": "https://www.dumetschool.com",
+    "tipe": "Bootcamp",
+    "rating": 4.9,
+    "jumlah_siswa": 12000,
+    "biaya": "Berbayar",
+    "harga_min": "500.000",
+    "harga_max": "20.000.000",
+    "metode_pembelajaran": [
+      "Kelas Tatap Muka",
+      "Kelas Online"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "email": "info@dumetschool.com",
+      "telepon": "021-5890-8355",
+      "wa": "+62 812-9393-3210"
+    },
+    "deskripsi": "DUMET School adalah lembaga pendidikan yang telah mencetak talenta digital selama lebih dari 12 tahun. DUMET School adalah lembaga kursus yang bergerak di bidang pendidikan khususnya Kursus Frontend & Backend Developer, Digital Marketing, Desain Grafis & Multimedia. Sampai saat ini DUMET School sudah memiliki lulusan lebih dari 12.000 + orang dari berbagai status dan profesi mulai dari pelajar sekolah, mahasiswa, guru, dosen, staff profesional, freelancer, dll. Mereka tidak hanya yang tinggal di Jakarta saja namun banyak juga yang datang dari berbagai daerah di Indonesia bahkan dari luar negri sekalipun. DUMET School membuka cabang pertamanya pada tahun 2013. Sampai dengan tahun 2023 ini, DUMET School memiliki 2 cabang yang berlokasi di Srengseng, dan Depok. Untuk cabang Kelapa Gading, Grogol & Tebet ditutup pada saat Pandemi dan beralih ke Online 1 on 1."
+  },
+  {
+    "id": 9,
+    "nama": "Harisenin.com",
+    "gambar": "assets/img/harisenin-com.png",
+    "kategori": "Desain & Kreatif",
+    "online": true,
+    "offline": false,
+    "lokasi": ["Online"],
+    "fokus": [
+      "UI/UX",
+      "Data science",
+      "Design thinking"
+    ],
+    "website": "https://www.harisenin.com",
+    "tipe": "Reguler",
+    "rating": 4.6,
+    "jumlah_siswa": 950,
+    "biaya": "Berbayar",
+    "metode_pembelajaran": [
+      "Live Class",
+      "Studi Kasus",
+      "Mentoring"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "email": "info@harisenin.com",
+      "telepon": "021-0000001"
+    },
+    "deskripsi": "Harisenin.com adalah platform belajar online yang menyediakan pelatihan profesional berbasis proyek untuk berbagai bidang digital seperti UI/UX, data science, dan karier."
+  },
+  {
+    "id": 10,
+    "nama": "RevoU",
+    "gambar": "assets/img/REVOU.png",
+    "kategori": "Bisnis & Digital Marketing",
+    "online": true,
+    "offline": false,
+    "lokasi": ["Online"],
+    "fokus": [
+      "Digital marketing",
+      "Product management",
+      "Data analytics"
+    ],
+    "website": "https://revou.co",
+    "tipe": "Bootcamp",
+    "rating": 4.9,
+    "jumlah_siswa": 1200,
+    "biaya": "Berbayar",
+    "metode_pembelajaran": [
+      "Live Class",
+      "Project Based",
+      "Team Collaboration"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "email": "info@revou.co",
+      "telepon": "021-0000002"
+    },
+    "deskripsi": "RevoU adalah program bootcamp online intensif yang dirancang untuk membentuk tenaga kerja digital siap pakai di bidang marketing, data, dan produk."
+  },
+  {
+    "id": 11,
+    "nama": "Sekolah.mu",
+    "gambar": "https://th.bing.com/th/id/OIP.J9YzliQql2he6GIbib9xSAHaDt?rs=1&pid=ImgDetMain&cb=idpwebpc2",
+    "kategori": "Bisnis & Digital Marketing",
+    "online": true,
+    "offline": true,
+    "lokasi": ["Jl. Jeruk Purut Dalam No.33, RT.6/RW.3, Cilandak Timur, Pasar Minggu, Jakarta Selatan, DKI Jakarta 12560 (Alamat Kantor)"],
+    "fokus": [
+      "Data Analytics",
+      "Digital Marketing",
+      "Software Engineering",
+      "Product Management",
+      "UI/UX Design"
+    ],
+    "website": "https://www.sekolah.mu",
+    "tipe": "Reguler",
+    "rating": 4.4,
+    "jumlah_siswa": 20000,
+    "biaya": "Gratis dan Berbayar",
+    "harga_min": "0",
+    "harga_max": "16.000.000",
+    "metode_pembelajaran": [
+      "Video on Demand",
+      "Live Webinar",
+      "Kolaborasi Sekolah"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "email": "suaramu@sekolahmu.co.id",
+      "wa": "+62 813-8811-1756"
+    },
+    "deskripsi": "Sekolah.mu adalah sekolah dengan sistem blended learning pertama di Indonesia. Berbasis teknologi dan berkolaborasi untuk menyediakan program belajar bagi semua orang. Sekolah.mu ingin memastikan semua anak Indonesia sukses mencapai kompetensi dan meraih prestasi di masa depan dengan memberikan mutu pelayanan pendidikan yang berpihak kepada anak secara merata, serta menyediakan akses pembelajaran terintegrasi digital dengan struktur kurikulum yang personal dan fleksibel. "
+  },
+  {
+    "id": 12,
+    "nama": "LIA (Lembaga Indonesia Amerika)",
+    "gambar": "assets/img/lia.jpeg",
+    "kategori": "Kursus Bahasa",
+    "online": true,
+    "offline": true,
+    "lokasi": ["Banyak cabang di seluruh Indonesia"],
+    "fokus": [
+      "Bahasa Inggris"
+    ],
+    "website": "https://www.lia.or.id",
+    "tipe": "Reguler",
+    "rating": 4.7,
+    "jumlah_siswa": 2000,
+    "biaya": "Berbayar",
+    "metode_pembelajaran": [
+      "Kelas Tatap Muka",
+      "Online Synchronous",
+      "Modul Interaktif"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "email": "info@lia.or.id",
+      "telepon": "021-0000004"
+    },
+    "deskripsi": "LIA adalah lembaga kursus bahasa Inggris ternama di Indonesia yang telah berdiri selama puluhan tahun dan menawarkan berbagai jenjang kelas untuk semua usia."
+  },
+  {
+    "id": 13,
+    "nama": "ILP (International Language Programs)",
+    "gambar": "assets/img/ilp.png",
+    "kategori": "Kursus Bahasa",
+    "online": true,
+    "offline": true,
+    "lokasi": ["Jakarta Selatan", " Jakarta Barat", " Jakarta Pusat", " Jakarta Timur", " Tangerang Selatan", " Gading Serpong", " Bekasi Timur", " Pondok Gede", " Yogyakarta"],
+    "fokus": [
+      "Bahasa Inggris"
+    ],
+    "website": "https://ilp.co.id",
+    "tipe": "Reguler",
+    "rating": 4.5,
+    "jumlah_siswa": 1500,
+    "biaya": "Berbayar",
+    "metode_pembelajaran": [
+      "Kelas Offline",
+      "Kelas Online Interaktif"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "email": "info@ilp.co.id",
+      "telepon": "021-0000005"
+    },
+    "deskripsi": "ILP adalah institusi pendidikan bahasa Inggris profesional dengan berbagai cabang di Indonesia yang menawarkan program berkualitas untuk semua kalangan."
+  },
+  {
+    "id": 14,
+    "nama": "Algoland Academy",
+    "gambar": "https://algolandacademy.com/img/logo_AlgoLandAcademy.png",
+    "kategori": "Teknologi & Pemrograman",
+    "online": true,
+    "offline": true,
+    "lokasi": [
+      "Citraland Celebes, Jl. Tun Abdul Razak, Sulawesi Selatan, 90233"
+    ],
+    "fokus": [
+      "Web Development",
+      "UI/UX Design",
+      "Mobile App"
+    ],
+    "website": "https://algolandacademy.com/index.php",
+    "tipe": "Kursus",
+    "rating": 4.4,
+    "jumlah_siswa": 1200,
+    "biaya": "Berbayar",
+    "harga_min" : "600.000",
+    "harga_max" : "750.000",
+    "metode_pembelajaran": [
+      "Live Class",
+      "Project Based",
+      "Mentoring"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "email": "academyalgoland@gmail.com",
+      "wa" : "+62 821-8923-4127"  
+    },
+    "deskripsi": "AlgoLand Academy merupakan lembaga kursus coding dan robotika yang dirancang khusus untuk anak-anak hingga remaja berusia 5-17 tahun, hingga tingkatan profesional. Melalui kurikulum kami yang inovatif, siswa akan mempelajari dasar-dasar coding dan robotika dengan cara yang seru dan mudah dimengerti. Kurikulum kami dibuat agar sesuai dengan usia kamu, jadi kamu bisa belajar dengan cara yang menyenangkan dan bisa membuat proyek-proyek keren."
+  },
+  {
+    "id": 15,
+    "nama": "Digital Talent Scholarship - Kominfo",
+    "gambar": "assets/img/digitalent.jpg",
+    "kategori": "Pemerintah / Sertifikasi",
+    "online": true,
+    "offline": false,
+    "lokasi" : ["Badan Pengembangan SDM Komdigi Kementerian Komunikasi dan Digital RI Jl. Medan Merdeka Barat No. 9, Jakarta Pusat, 10110"],
+    "fokus": [
+      "Digital Skills",
+      "Cloud Computing",
+      "AI",
+      "Cyber Security"
+    ],
+    "website": "https://digitalent.komdigi.go.id/",
+    "tipe": "Beasiswa",
+    "rating": 4.7,
+    "jumlah_siswa": 100000,
+    "biaya": "Gratis",
+    "harga_min" : "0",
+    "metode_pembelajaran": [
+      "Online Course",
+      "Live Webinar",
+      "Pelatihan Sertifikasi"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "email": "helpdesk@digitalent.komdigi.go.id"
+    },
+    "deskripsi": "Program pelatihan digital gratis dari Kementerian Komunikasi dan Informatika yang bertujuan meningkatkan kompetensi talenta digital Indonesia di berbagai bidang teknologi."
+  },
+  {
+    "id": 16,
+    "nama": "Glints ExpertClass",
+    "gambar": "assets/img/glints.jpg",
+    "kategori": "Karier & Profesional",
+    "online": true,
+    "offline": false,
+    "fokus": [
+      "Karier",
+      "Manajemen",
+      "Digital Marketing",
+      "IT Skill"
+    ],
+    "website": "https://glints.com/id/expert-class",
+    "tipe": "Kelas Online",
+    "rating": 4.5,
+    "jumlah_siswa": 50000,
+    "biaya": "Gratis & Berbayar",
+    "metode_pembelajaran": [
+      "Live Webinar",
+      "Recorded Class"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "email": "support@glints.com",
+      "wa" : "+62 895-1017-1504"
+    },
+    "deskripsi": "Glints ExpertClass adalah platform pembelajaran yang menyediakan kelas online bersama para praktisi profesional untuk meningkatkan skill dan karier di berbagai bidang."
+  },
+  {
+    "id": 17,
+    "nama": "Zenius Education",
+    "gambar": "assets/img/zenius.jpg",
+    "kategori": "Pendidikan & Sekolah",
+    "online": true,
+    "offline": false,
+    "lokasi" : ["Jakarta Selatan"],
+    "fokus": [
+      "Pelajaran Sekolah",
+      "UTBK",
+      "STAN",
+      "Kedinasan"
+    ],
+    "website": "https://zenius.net",
+    "tipe": "E-Learning",
+    "rating": 4.3,
+    "jumlah_siswa": 200000,
+    "biaya": "Berbayar",
+    "harga_min" : "175.000",
+    "harga_max" : "600.000",
+    "metode_pembelajaran": [
+      "Video Pembelajaran",
+      "Latihan Soal",
+      "Live Class"
+    ],
+    "sertifikasi": false,
+    "kontak": {
+      "email": "cs@zenius.net",
+      "wa" : "+62 817-0731-582"
+    },
+    "deskripsi": "Zenius merupakan platform pembelajaran digital untuk siswa sekolah menengah yang menyediakan materi pelajaran, latihan soal, serta persiapan UTBK dan ujian masuk lainnya."
+  },
+  {
+    "id": 18,
+    "nama": "QuBisa",
+    "gambar": "assets/img/Q.jpg",
+    "kategori": "Karier & Sertifikasi",
+    "online": true,
+    "offline": false,
+    "fokus": [
+      "Soft Skills",
+      "Business",
+      "Teknologi",
+      "Produktivitas"
+    ],
+    "website": "https://qubisa.com",
+    "tipe": "Platform Belajar",
+    "rating": 4.2,
+    "jumlah_siswa": 80000,
+    "biaya": "Berbayar",
+    "harga_min" : "45.000",
+    "harga_max" :"800.000", 
+    "metode_pembelajaran": [
+      "Microlearning",
+      "Webinar",
+      "Sertifikasi"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "email": "cs@qubisa.com"
+    },
+    "deskripsi": "QuBisa adalah platform belajar online yang menawarkan berbagai kursus singkat dan webinar untuk meningkatkan skill kerja, pengembangan diri, dan sertifikasi profesional."
+  },
+  {
+    "id": 19,
+    "nama": "MyEduSolve",
+    "gambar": "https://myedusolve.com/_ipx/w_1920,q_75/%2F_next%2Fstatic%2Fmedia%2FLogoMESWhite.81b562ae.webp?url=%2F_next%2Fstatic%2Fmedia%2FLogoMESWhite.81b562ae.webp&w=1920&q=75",
+    "kategori": "Sertifikasi Internasional",
+    "online": true,
+    "offline": false,
+    "fokus": [
+      "Microsoft Office Specialist",
+      "Adobe Certified Professional",
+      "PMI Project Management"
+    ],
+    "website": "https://myedusolve.com",
+    "tipe": "Sertifikasi",
+    "rating": 4.7,
+    "jumlah_siswa": 76000,
+    "biaya": "Berbayar",
+    "harga_min": "1.170.000",
+    "harga_max": "4.400.000",
+    "metode_pembelajaran": [
+      "Online Course",
+      "Ujian Sertifikasi"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "email": "hello@myedusolve.com",
+      "wa": "+62 878-5706-7313"
+    },
+    "deskripsi": "MyEduSolve adalah platform penyedia sertifikasi internasional resmi seperti Microsoft, Adobe, dan PMI, serta pelatihan persiapan ujian sertifikasi secara online."
+  },
+  {
+    "id": 20,
+    "nama": "Cakap",
+    "gambar": "assets/img/cakap.png",
+    "kategori": "Bahasa & Soft Skill",
+    "online": true,
+    "offline": false,
+    "fokus": [
+      "Bahasa Inggris",
+      "Bahasa Jepang",
+      "Bahasa Mandarin",
+      "Bahasa Korea"
+    ],
+    "website": "https://www.cakap.com",
+    "tipe": "Platform Belajar",
+    "rating": 4.9,
+    "jumlah_siswa": 5200000,
+    "biaya": "Berbayar",
+    "harga_min": "49.800",
+    "harga_max": "93.800",
+    "metode_pembelajaran": [
+      "Kuis Pra-Tes",
+      "Materi Video",
+      "Kelas Webinar",
+      "Tes Final"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "email": "cs@cakap.com",
+      "wa": "+62 812-1833-8653"
+    },
+    "deskripsi": "Cakap adalah aplikasi belajar bahasa asing secara online dengan pengajar profesional, menyediakan kelas privat dan grup untuk berbagai bahasa dan soft skill."
+  },
+  {
+    "id": 21,
+    "nama": "Bahaso",
+    "gambar": "assets/img/bahaso.png",
+    "kategori": "Bahasa",
+    "online": true,
+    "offline": false,
+    "lokasi": ["Jakarta Pusat"],
+    "fokus": [
+      "Bahasa Inggris",
+      "Bahasa Mandarin",
+      "Bahasa Indonesia untuk Penutur Asing"
+    ],
+    "website": "https://bahaso.com",
+    "tipe": "Platform Belajar",
+    "rating": 4.3,
+    "jumlah_siswa": 50000,
+    "biaya": "Gratis & Berbayar",
+    "metode_pembelajaran": [
+      "Self-paced",
+      "Live Class"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "email": "info@bahaso.com",
+      "telepon" :"021-21202012",
+      "wa": "+62 815-8523-3481"
+    },
+    "deskripsi": "Bahaso adalah platform belajar bahasa online yang menyediakan kursus Bahasa Inggris dan Bahasa Indonesia untuk penutur asing dengan metode interaktif."
+  },
+  {
+    "id": 22,
+    "nama": "Codepolitan",
+    "gambar": "assets/img/codepolitan.png",
+    "kategori": "Teknologi & Pemrograman",
+    "online": true,
+    "offline": false,
+    "lokasi": ["Jawa Barat"],
+    "fokus": [
+      "Fullstack Web developer",
+      "Pemrograman Web",
+      "Mobile Development",
+      "Game Development"
+    ],
+    "website": "https://codepolitan.com",
+    "tipe": "Platform Belajar",
+    "rating": 4.5,
+    "jumlah_siswa": 100000,
+    "biaya": "Gratis & Berbayar",
+    "harga_min": "0",
+    "harga_max": "800.000",
+    "metode_pembelajaran": [
+      "Self-paced",
+      "Bootcamp",
+      "Live Class"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "email": "info@codepolitan.com"
+    },
+    "deskripsi": "CODEPOLITAN adalah platform belajar pemrograman secara online dengan berbahasa Indonesia yang dikembangkan khusus untuk membantu generasi muda belajar dan berlatih pemrograman agar kompetitif di era Industri 4.0. Dalam 5 tahun, CODEPOLITAN berkembang menjadi platform belajar pemrograman berbahasa Indonesia dan menjadi sumber terpercaya bagi generasi muda Indonesia."
+  },
+  {
+    "id": 23,
+    "nama": "Kelas.com",
+    "gambar": "assets/img/kelas-com.png",
+    "kategori": "Kursus Umum",
+    "online": true,
+    "offline": false,
+    "fokus": [
+      "UI/UX",
+      "Marketing",
+      "Startup",
+      "Programming"
+    ],
+    "website": "https://kelas.com",
+    "tipe": "Platform Belajar",
+    "rating": 4.4,
+    "jumlah_siswa": 30000,
+    "biaya": "Berbayar",
+    "harga_min" : "250.000",
+    "harga_max" : "700.000",
+    "metode_pembelajaran": [
+      "Live Class",
+      "Self-paced"
+    ],
+    "sertifikasi": true,
+    "kontak": {
+      "email": "support@kelas.com",
+      "wa": "+62 858-8148-6280"
+    },
+    "deskripsi": "Kelas.com adalah platform kursus online yang menawarkan berbagai kelas di bidang teknologi, bisnis, desain, dan pengembangan diri dengan mentor profesional."
+  }
+]

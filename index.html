@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-learning - Advance Your Skills</title>
+    <title>KursusPedia - Advance Your Skills</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
@@ -19,7 +19,7 @@
 <body class="font-sans">
     <nav class="flex items-center justify-between px-8 py-4">
         <div class="flex items-center space-x-2">
-            <img src="https://flowbite.com/docs/images/logo.svg" alt="E-learning Logo" class="h-8 w-8"> <span class="text-2xl font-bold text-gray-800">E-learning<span class="text-indigo-600">.</span></span>
+            <img src="assets/img/KURSUSPEDIAlogo.png" alt="KursusPedia Logo" class="h-10 w-10"> <span class="text-2xl font-bold text-gray-800">KursusPedia<span class="text-indigo-600">.</span></span>
         </div>
         <div class="hidden lg:flex items-center space-x-8">
             <a href="#home" class="text-gray-600 hover:text-indigo-600 font-medium">Beranda</a>
@@ -72,20 +72,13 @@
                     </div>
                     <input type="text" id="search-input-hero" class="bg-white border border-gray-300 text-gray-900 text-base rounded-full focus:ring-indigo-500 focus:border-indigo-500 block w-full ps-10 p-4 shadow-md" placeholder="Cari kursus..." required />
                 </div>
-                <button type="submit" class="p-4 ms-2 text-md font-medium text-white bg-indigo-600 rounded-full border border-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:outline-none focus:ring-indigo-300 transition-colors duration-200 transform hover:scale-105">
+                <a href="#kursus" class="p-4 ms-2 text-md font-medium text-white bg-indigo-600 rounded-full border border-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:outline-none focus:ring-indigo-300 transition-colors duration-200 transform hover:scale-105">
                     <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
                     </svg>
                     <span class="sr-only">Search</span>
-                </button>
+                </a>
             </form>
-
-            <section class="container mx-auto px-4 py-12">
-                <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center" id="results-title">Hasil Pencarian Kursus</h2>
-                <div id="search-results" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-                    <p class="text-center text-gray-500 col-span-full">Ketikkan kata kunci di kotak pencarian di atas untuk menemukan kursus.</p>
-                </div>
-            </section>
 
             <div class="flex flex-wrap justify-center lg:justify-start gap-6 mt-8">
                 <div class="flex items-center space-x-2 text-gray-700">
@@ -171,6 +164,7 @@
             </div>
         </div>
                 
+        <div id="courses-list-title" class="text-2xl font-bold mb-6 text-center"></div>
         <div id="courses-list" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
             <!-- Cards will be injected here -->
         </div>
@@ -339,98 +333,98 @@
             <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-5xl mx-auto">
                 <div class="flex flex-col items-center text-center">
                     <div class="relative mb-4">
-                        <img class="w-40 h-40 rounded-full object-cover ring-4 ring-indigo-200" src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg" alt="Mentor 1">
-                        <a href="#" class="absolute bottom-2 right-2 flex items-center justify-center flex items-center justify-center bg-indigo-600 text-white w-8 h-8 rounded-full hover:bg-indigo-700 transition-colors">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                            <span class="sr-only">LinkedIn</span>
+                        <img class="w-40 h-40 rounded-full object-cover ring-4 ring-indigo-200" src="assets/img/jeje.jpg" alt="Mentor 1">
+                        <a href="https://www.instagram.com/_nvels/?utm_source=ig_web_button_share_sheet" class="absolute bottom-2 right-2 flex items-center justify-center flex items-center justify-center bg-indigo-600 text-white w-8 h-8 rounded-full hover:bg-indigo-700 transition-colors">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span class="sr-only">Instagram</span>
                         </a>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-1">Shoo Thar Mien</h3>
-                    <p class="text-indigo-600 text-sm font-semibold">Senior UX Designer</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Jesulin N N Wattilete</h3>
+                    <p class="text-indigo-600 text-sm font-semibold">220101084</p>
                 </div>
 
                 <div class="flex flex-col items-center text-center">
                     <div class="relative mb-4">
-                        <img class="w-40 h-40 rounded-full object-cover ring-4 ring-indigo-200" src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg" alt="Mentor 2">
-                        <a href="#" class="absolute bottom-2 right-2 flex items-center justify-center flex items-center justify-center bg-indigo-600 text-white w-8 h-8 rounded-full hover:bg-indigo-700 transition-colors">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                            <span class="sr-only">LinkedIn</span>
+                        <img class="w-40 h-40 rounded-full object-cover ring-4 ring-indigo-200" src="assets/img/ghefira.jpg" alt="Mentor 2">
+                        <a href="https://www.instagram.com/ghfrvt/?utm_source=ig_web_button_share_sheet" class="absolute bottom-2 right-2 flex items-center justify-center flex items-center justify-center bg-indigo-600 text-white w-8 h-8 rounded-full hover:bg-indigo-700 transition-colors">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span class="sr-only">Instagram</span>
                         </a>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-1">Shoo Thar Mien</h3>
-                    <p class="text-indigo-600 text-sm font-semibold">Senior UX Designer</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Ghefira Novita Putri</h3>
+                    <p class="text-indigo-600 text-sm font-semibold">220101035</p>
                 </div>
 
                 <div class="flex flex-col items-center text-center">
                     <div class="relative mb-4">
-                        <img class="w-40 h-40 rounded-full object-cover ring-4 ring-indigo-200" src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg" alt="Mentor 2">
+                        <img class="w-40 h-40 rounded-full object-cover ring-4 ring-indigo-200" src="assets/img/dila.jpg" alt="Mentor 2">
                         <a href="#" class="absolute bottom-2 right-2 flex items-center justify-center flex items-center justify-center bg-indigo-600 text-white w-8 h-8 rounded-full hover:bg-indigo-700 transition-colors">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                            <span class="sr-only">LinkedIn</span>
+                            <i class="fa-brands fa-instagram"></i>
+                            <span class="sr-only">Instagram</span>
                         </a>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-1">Shoo Thar Mien</h3>
-                    <p class="text-indigo-600 text-sm font-semibold">Senior UX Designer</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Andi Nurlilah Darsiah</h3>
+                    <p class="text-indigo-600 text-sm font-semibold">220101011</p>
                 </div>
 
                 <div class="flex flex-col items-center text-center">
                     <div class="relative mb-4">
-                        <img class="w-40 h-40 rounded-full object-cover ring-4 ring-indigo-200" src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg" alt="Mentor 2">
-                        <a href="#" class="absolute bottom-2 right-2 flex items-center justify-center flex items-center justify-center bg-indigo-600 text-white w-8 h-8 rounded-full hover:bg-indigo-700 transition-colors">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                            <span class="sr-only">LinkedIn</span>
+                        <img class="w-40 h-40 rounded-full object-cover ring-4 ring-indigo-200" src="assets/img/melda.jpg" alt="Mentor 2">
+                        <a href="https://www.instagram.com/mlsbtta__/?utm_source=ig_web_button_share_sheet" class="absolute bottom-2 right-2 flex items-center justify-center flex items-center justify-center bg-indigo-600 text-white w-8 h-8 rounded-full hover:bg-indigo-700 transition-colors">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span class="sr-only">Instagram</span>
                         </a>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-1">Shoo Thar Mien</h3>
-                    <p class="text-indigo-600 text-sm font-semibold">Senior UX Designer</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Melda Olivia Lesbatta</h3>
+                    <p class="text-indigo-600 text-sm font-semibold">220101053</p>
                 </div>
 
                 <div class="flex flex-col items-center text-center">
                     <div class="relative mb-4">
-                        <img class="w-40 h-40 rounded-full object-cover ring-4 ring-indigo-200" src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg" alt="Mentor 2">
-                        <a href="#" class="absolute bottom-2 right-2 flex items-center justify-center flex items-center justify-center bg-indigo-600 text-white w-8 h-8 rounded-full hover:bg-indigo-700 transition-colors">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                            <span class="sr-only">LinkedIn</span>
+                        <img class="w-40 h-40 rounded-full object-cover ring-4 ring-indigo-200" src="assets/img/fahmi.jpg" alt="Mentor 2">
+                        <a href="https://www.instagram.com/amigoxsz/?utm_source=ig_web_button_share_sheet" class="absolute bottom-2 right-2 flex items-center justify-center flex items-center justify-center bg-indigo-600 text-white w-8 h-8 rounded-full hover:bg-indigo-700 transition-colors">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span class="sr-only">Instagram</span>
                         </a>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-1">Shoo Thar Mien</h3>
-                    <p class="text-indigo-600 text-sm font-semibold">Senior UX Designer</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Fahmi Ahmad</h3>
+                    <p class="text-indigo-600 text-sm font-semibold">220101057</p>
                 </div>
 
                 <div class="flex flex-col items-center text-center">
                     <div class="relative mb-4">
-                        <img class="w-40 h-40 rounded-full object-cover ring-4 ring-indigo-200" src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg" alt="Mentor 2">
+                        <img class="w-40 h-40 rounded-full object-cover ring-4 ring-indigo-200" src="assets/img/noval.jpg" alt="Mentor 2">
                         <a href="#" class="absolute bottom-2 right-2 flex items-center justify-center flex items-center justify-center bg-indigo-600 text-white w-8 h-8 rounded-full hover:bg-indigo-700 transition-colors">
-                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-brands fa-instagram"></i>
                             <span class="sr-only">LinkedIn</span>
                         </a>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-1">Shoo Thar Mien</h3>
-                    <p class="text-indigo-600 text-sm font-semibold">Senior UX Designer</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Novaldy Brayn Rumteh</h3>
+                    <p class="text-indigo-600 text-sm font-semibold">220101068</p>
                 </div>
 
                 <div class="flex flex-col items-center text-center">
                     <div class="relative mb-4">
-                        <img class="w-40 h-40 rounded-full object-cover ring-4 ring-indigo-200" src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg" alt="Mentor 2">
-                        <a href="#" class="absolute bottom-2 right-2 flex items-center justify-center flex items-center justify-center bg-indigo-600 text-white w-8 h-8 rounded-full hover:bg-indigo-700 transition-colors">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                            <span class="sr-only">LinkedIn</span>
+                        <img class="w-40 h-40 rounded-full object-cover ring-4 ring-indigo-200" src="assets/img/kevin.jpg" alt="Mentor 2">
+                        <a href="https://www.instagram.com/kevinlay43/?utm_source=ig_web_button_share_sheet" class="absolute bottom-2 right-2 flex items-center justify-center flex items-center justify-center bg-indigo-600 text-white w-8 h-8 rounded-full hover:bg-indigo-700 transition-colors">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span class="sr-only">Instagram</span>
                         </a>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-1">Shoo Thar Mien</h3>
-                    <p class="text-indigo-600 text-sm font-semibold">Senior UX Designer</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Christhoper Kevin Lay</h3>
+                    <p class="text-indigo-600 text-sm font-semibold">220101058</p>
                 </div>
 
                 <div class="flex flex-col items-center text-center">
                     <div class="relative mb-4">
-                        <img class="w-40 h-40 rounded-full object-cover ring-4 ring-indigo-200" src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg" alt="Mentor 3">
-                        <a href="#" class="absolute bottom-2 right-2 flex items-center justify-center flex items-center justify-center bg-indigo-600 text-white w-8 h-8 rounded-full hover:bg-indigo-700 transition-colors">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                            <span class="sr-only">LinkedIn</span>
+                        <img class="w-40 h-40 rounded-full object-cover ring-4 ring-indigo-200" src="assets/img/dani.jpg" alt="Mentor 3">
+                        <a href="https://www.instagram.com/dnnythemvp_?utm_source=ig_web_button_share_sheet&igsh=MThvbDB6dTRpOXYzNg==" class="absolute bottom-2 right-2 flex items-center justify-center flex items-center justify-center bg-indigo-600 text-white w-8 h-8 rounded-full hover:bg-indigo-700 transition-colors">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span class="sr-only">Instagram</span>
                         </a>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-1">Shoo Thar Mien</h3>
-                    <p class="text-indigo-600 text-sm font-semibold">Senior UX Designer</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Danny F B Tahir</h3>
+                    <p class="text-indigo-600 text-sm font-semibold">220101060</p>
                 </div>
             </div>
         </div>
@@ -458,9 +452,9 @@
     <footer class="bg-blue-100 py-12 px-8 mt-12">
     <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div class="space-y-4">
-            <a href="#" class="flex items-center space-x-2 text-xl font-bold text-gray-900">
-                <img src="https://via.placeholder.com/30x30/6366F1/FFFFFF?text=E" alt="E-learning Logo" class="h-8">
-                <span>E-learning<span class="text-indigo-600">.</span></span>
+            <a href="index.html" class="flex items-center space-x-2 text-xl font-bold text-gray-900">
+                <img src="assets/img/KURSUSPEDIAlogo.png" alt="KursusPedia Logo" class="h-10">
+                <span>KursusPedia<span class="text-indigo-600">.</span></span>
             </a>
             <p class="text-gray-600">
                 @2025 Agency. All Rights Reserved by GetNextJsTemplates.com
@@ -558,145 +552,19 @@
     </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-   
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const searchForm = document.getElementById('search-form');
-            const searchInput = document.getElementById('search-input');
-            const searchResultsContainer = document.getElementById('search-results');
-            const resultsTitle = document.getElementById('results-title'); // Judul "Hasil Pencarian Kursus"
-            let allCoursesData = []; // Variabel untuk menyimpan semua data kursus
-
-            // Fungsi untuk mengambil data kursus dari kursus.json
-            const fetchCourses = async () => {
-                try {
-                    const response = await fetch('assets/data/kursus.json');
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok ' + response.statusText);
-                    }
-                    allCoursesData = await response.json();
-                    // Initial load: Jika search bar kosong, mungkin ingin menampilkan semua kursus populer atau pesan default
-                    // renderCourses(allCoursesData); // Uncomment ini jika ingin menampilkan semua kursus secara default
-                } catch (error) {
-                    console.error('There was a problem fetching the course data:', error);
-                    searchResultsContainer.innerHTML = '<p class="text-red-500 text-center col-span-full">Gagal memuat data kursus. Silakan coba lagi nanti.</p>';
-                }
-            };
-
-            // Panggil fungsi fetchCourses saat halaman dimuat
-            fetchCourses();
-
-            // Fungsi untuk menampilkan/menyembunyikan bagian hasil pencarian
-            const toggleResultsSection = (show) => {
-                const resultsSection = searchResultsContainer.closest('section');
-                if (resultsSection) {
-                    resultsSection.style.display = show ? 'block' : 'none';
-                }
-            };
-
-            // Sembunyikan bagian hasil pencarian di awal
-            toggleResultsSection(false);
-
-            // Tangani submit form pencarian
-            searchForm.addEventListener('submit', (event) => {
-                event.preventDefault(); // Mencegah halaman reload
-                performSearch();
-            });
-
-            // Tangani input real-time
-            searchInput.addEventListener('input', () => {
-                // Trigger pencarian jika ada minimal 2 karakter atau jika input dikosongkan
-                if (searchInput.value.length >= 2 || searchInput.value.length === 0) {
-                    performSearch();
-                }
-            });
-
-
-            function performSearch() {
-                const searchTerm = searchInput.value.toLowerCase().trim();
-                let filteredCourses = [];
-
-                if (searchTerm === "") {
-                    // Jika input kosong, sembunyikan hasil pencarian dan tampilkan pesan default
-                    searchResultsContainer.innerHTML = '<p class="text-center text-gray-500 col-span-full">Ketikkan kata kunci di kotak pencarian di atas untuk menemukan kursus.</p>';
-                    resultsTitle.textContent = 'Hasil Pencarian Kursus'; // Reset judul
-                    toggleResultsSection(false); // Sembunyikan section jika input kosong
-                    return;
-                } else {
-                    // Filter kursus berdasarkan nama kursus, deskripsi, nama pengajar, atau jabatan pengajar
-                    filteredCourses = allCoursesData.filter(course =>
-                        (course.nama_kursus && course.nama_kursus.toLowerCase().includes(searchTerm)) ||
-                        (course.deskripsi && course.deskripsi.toLowerCase().includes(searchTerm)) ||
-                        (course.nama_pengajar && course.nama_pengajar.toLowerCase().includes(searchTerm)) ||
-                        (course.jabatan_pengajar && course.jabatan_pengajar.toLowerCase().includes(searchTerm))
-                    );
-                }
-
-                renderCourses(filteredCourses, searchTerm);
-            }
-
-            function renderCourses(coursesToRender, searchTerm) {
-                searchResultsContainer.innerHTML = ''; // Kosongkan hasil sebelumnya
-                toggleResultsSection(true); // Tampilkan section hasil pencarian
-
-                if (coursesToRender.length === 0) {
-                    searchResultsContainer.innerHTML = `
-                        <div class="col-span-full text-center py-8">
-                            <svg class="mx-auto h-16 w-16 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172A4 4 0 0112 20c.707 0 1.397-.194 2-.547m-4-10.895L10 3m0 0l-1.828 1.828M12 20a4 4 0 004-4h-4zm0 0a4 4 0 01-4-4h4z"></path>
-                            </svg>
-                            <h3 class="mt-2 text-xl font-semibold text-gray-900">Tidak ada kursus ditemukan</h3>
-                            <p class="mt-1 text-base text-gray-500">Kami tidak dapat menemukan kursus yang cocok dengan "<span class="font-bold">${searchTerm}</span>". Coba kata kunci lain.</p>
-                        </div>
-                    `;
-                    resultsTitle.textContent = `Hasil Pencarian untuk "${searchTerm}" (0)`;
-                    return;
-                }
-
-                resultsTitle.textContent = `Hasil Pencarian untuk "${searchTerm}" (${coursesToRender.length})`;
-
-                coursesToRender.forEach(course => {
-                    const courseCard = `
-                        <a href="detail.html?id=${course.id}" class="block bg-white relative p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:scale-102">
-                            ${course.bestSeller ? '<span class="absolute top-4 right-4 bg-yellow-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-md z-10">BEST SELLER</span>' : ''}
-                            <img class="w-full h-48 object-cover rounded-lg mb-4 shadow-sm" src="${course.gambar || 'https://via.placeholder.com/400x200/4F46E5/FFFFFF?text=Course'}" alt="${course.nama_kursus}">
-                            <h3 class="text-xl font-bold text-gray-900 mb-2 line-clamp-2">${course.nama_kursus}</h3>
-                            <p class="text-gray-600 text-sm mb-4 line-clamp-3">${course.deskripsi}</p>
-                            <div class="flex items-center text-gray-700 text-sm mb-2">
-                                <img class="w-8 h-8 rounded-full mr-3 border border-gray-200" src="${course.foto_pengajar || 'https://via.placeholder.com/32x32?text=Mentor'}" alt="${course.nama_pengajar}">
-                                <div>
-                                    <p class="font-medium">${course.nama_pengajar}</p>
-                                    <p class="text-xs text-gray-500">${course.jabatan_pengajar || 'Pengajar'}</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center justify-between mt-4 border-t pt-4 border-gray-100">
-                                <div class="flex items-center">
-                                    <span class="text-yellow-500 font-bold text-lg mr-1">${course.rating}</span>
-                                    ${Array(Math.floor(course.rating)).fill().map((_, i) => `<svg key=${i} class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.538 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.538-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.927 8.73c-.783-.57-.38-1.81.588-1.81h3.462a1 1 0 00.95-.69l1.07-3.292z"></path></svg>`).join('')}
-                                    <span class="ml-2 text-sm text-gray-500">(${course.jumlah_reviews} Reviews)</span>
-                                </div>
-                                <p class="text-xl font-extrabold text-indigo-700">Rp${course.harga.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}</p>
-                            </div>
-                        </a>
-                    `;
-                    searchResultsContainer.innerHTML += courseCard;
-                });
-            }
-        });
-    </script>
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const searchForm = document.getElementById('search-form-courses');
             const searchInput = document.getElementById('search-input-courses');
             const coursesList = document.getElementById('courses-list');
-            // const coursesListTitle = document.getElementById('courses-list-title'); // Tidak ada elemen ini di HTML
+            const coursesListTitle = document.getElementById('courses-list-title');
             let allCoursesData = [];
 
-            // Fungsi untuk mengambil data kursus dari kursus.json
+            // Fungsi untuk mengambil data kursus dari kursus2.json
             const fetchCourses = async () => {
                 try {
-                    const response = await fetch('assets/data/kursus.json');
+                    const response = await fetch('assets/data/kursus2.json');
                     if (!response.ok) {
                         throw new Error('Network response was not ok ' + response.statusText);
                     }
@@ -733,30 +601,53 @@
                     // Jika input kosong, tampilkan semua kursus
                     coursesToDisplay = allCoursesData;
                 } else {
-                    // Filter kursus berdasarkan nama kursus, deskripsi, nama pengajar, atau jabatan pengajar
+                    // Filter kursus berdasarkan nama, deskripsi, kategori, lokasi, fokus, atau tipe
                     coursesToDisplay = allCoursesData.filter(course =>
-                        (course.nama_kursus && course.nama_kursus.toLowerCase().includes(searchTerm)) ||
+                        (course.nama && course.nama.toLowerCase().includes(searchTerm)) ||
                         (course.deskripsi && course.deskripsi.toLowerCase().includes(searchTerm)) ||
-                        (course.nama_pengajar && course.nama_pengajar.toLowerCase().includes(searchTerm)) ||
-                        (course.jabatan_pengajar && course.jabatan_pengajar.toLowerCase().includes(searchTerm))
+                        (course.kategori && course.kategori.toLowerCase().includes(searchTerm)) ||
+                        (course.lokasi && Array.isArray(course.lokasi) && course.lokasi.some(loc => loc.toLowerCase().includes(searchTerm))) ||
+                        (course.fokus && Array.isArray(course.fokus) && course.fokus.some(foc => foc.toLowerCase().includes(searchTerm))) ||
+                        (course.tipe && course.tipe.toLowerCase().includes(searchTerm))
                     );
-                    // Jika ingin menampilkan judul hasil pencarian, tambahkan elemen dengan id="courses-list-title" di HTML dan uncomment baris di bawah
-                    // if (coursesListTitle) {
-                    //     if (coursesToDisplay.length > 0) {
-                    //         coursesListTitle.textContent = `Hasil Pencarian untuk "${searchTerm}" (${coursesToDisplay.length})`;
-                    //     } else {
-                    //         coursesListTitle.textContent = `Hasil Pencarian untuk "${searchTerm}" (0)`;
-                    //     }
-                    // }
                 }
                 renderCourses(coursesToDisplay, searchTerm);
+            }
+
+            // Fungsi untuk menentukan badge mode kursus (Online/Offline/Hybrid)
+            function getCourseModeBadge(course) {
+                const locations = course.lokasi || [];
+                const isExplicitOnline = course.online === true; // Check for explicit boolean field
+                const isExplicitOffline = course.offline === true; // Check for explicit boolean field
+
+                // Check locations array for presence of 'online' and physical locations
+                const isLocationOnline = locations.some(loc => loc.toLowerCase() === 'online');
+                const hasPhysicalLocation = locations.some(loc => loc.toLowerCase() !== 'online');
+
+                let badgeText = []; 
+                let badgeColorClass = '';
+
+                // Prioritize explicit 'Online' and 'offline' boolean flags
+                if (isExplicitOnline && isExplicitOffline) {
+                    // Render two separate badges in a container for "Online" and "Offline"
+                    return `
+                        <div class="absolute top-4 right-4 flex flex-row  items-end space-x-1 z-20">
+                            <span class="inline-flex items-center bg-gradient-to-r from-green-100 via-green-200 to-green-300 text-green-900 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider shadow-sm"><i class="fa-solid fa-globe mr-1"></i> Online</span>
+                            <span class="inline-flex items-center bg-gradient-to-r from-indigo-200 via-indigo-300 to-indigo-400 text-indigo-900 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider shadow-sm"><i class="fa-solid fa-building mr-1"></i> Offline</span>
+                        </div>
+                    `;
+                } else if (isExplicitOnline) {
+                    return `<div class="absolute top-4 right-4 bg-gradient-to-r from-green-100 via-green-200 to-green-300 text-green-900 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider shadow-sm"><i class="fa-solid fa-globe mr-1"></i>Online</div>`;
+                } else {
+                    return `<div class="absolute top-4 right-4 bg-gradient-to-r from-indigo-200 via-indigo-300 to-indigo-400 text-indigo-900 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider shadow-sm"><i class="fa-solid fa-building mr-1"></i>Offline</div>`;
+                }
+                return '';
             }
 
             function renderCourses(coursesToRender, searchTerm = "") {
                 coursesList.innerHTML = ''; // Kosongkan hasil sebelumnya
 
                 if (coursesToRender.length === 0 && searchTerm !== "") {
-                    // Hanya tampilkan pesan "Tidak ada kursus ditemukan" jika ada searchTerm tapi tidak ada hasil
                     coursesList.innerHTML = `
                         <div class="col-span-full text-center py-8">
                             <svg class="mx-auto h-16 w-16 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -770,47 +661,81 @@
                 }
                 
                 if (coursesToRender.length === 0 && searchTerm === "") {
-                     // Ini kasus jika allCoursesData kosong sejak awal
                     coursesList.innerHTML = `
                         <p class="text-center text-gray-500 col-span-full">Tidak ada kursus tersedia saat ini.</p>
                     `;
                     return;
                 }
 
-                // Menggunakan map().join('') untuk rendering yang lebih efisien
                 coursesList.innerHTML = coursesToRender.map(course => `
                     <div class="relative bg-white rounded-lg shadow-md overflow-hidden transition-shadow duration-300 hover:shadow-lg transform hover:scale-105" style="transition: transform 0.2s;">
                         <p class="hidden text-indigo-700"> ${course.id}</p>
-                        <img class="w-full h-48 object-cover" src="${course.gambar || 'https://via.placeholder.com/400x200?text=No+Image'}" alt="${course.nama_kursus || 'No Title'}">
-                        ${course.bestSeller ? `<div class="absolute top-4 right-4 bg-yellow-400 text-white text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Best Seller</div>` : ''}
+                        <img class="w-full h-48 object-cover" src="${course.gambar || 'https://via.placeholder.com/400x200?text=No+Image'}" alt="${course.nama || 'No Title'}">
+                        
+                        ${getCourseModeBadge(course)}
+
                         <div class="p-5">
-                            <h3 class="text-xl font-bold text-gray-900 mb-2">${course.nama_kursus ?? 'Untitled Course'}</h3>
-                            <div class="flex items-center mb-2">
-                                <img class="w-5 h-5 rounded-full object-cover mr-2" src="${course.foto_pengajar || 'https://via.placeholder.com/40?text=No+Image'}" alt="${course.nama_pengajar || 'No Mentor'}">
-                                <p class="text-gray-600 text-sm ">${course.nama_pengajar ?? 'Unknown Author'}</p>    
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">${course.nama ?? 'Untitled Course'}</h3>
+                            <p class="text-gray-600 text-sm mb-2">${course.kategori ?? 'Unknown Category'}</p>
+                            <div class="flex items-center text-gray-500 text-sm mb-2">
+                                <i class="fa-solid fa-tag mr-1"></i>
+                                <span>${course.biaya ?? 'N/A'}</span>
+                                ${course.fokus && Array.isArray(course.fokus) && course.fokus.length > 0 ? `<span class="ml-2">• ${course.fokus[0]}</span>` : ''}
                             </div>
                             <div class="flex items-center justify-between mb-4">
                                 <div class="flex items-center">
-                                    <span class="text-yellow-400 font-semibold mr-1">${course.rating ?? 0}</span>
+                                    <span class="text-yellow-400 font-semibold mr-1 text-xs">${course.rating ?? 0}</span>
                                     <div class="flex">
-                                        ${[...Array(5)].map((_, i) => `
-                                            <svg class="w-4 h-4 ${(i < Math.round(course.rating ?? 0)) ? 'text-yellow-400' : 'text-gray-300'}" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.538 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.538-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.927 8.73c-.783-.57-.38-1.81.588-1.81h3.462a1 1 0 00.95-.69l1.07-3.292z"></path></svg>
-                                        `).join('')}
+                                        ${(() => {
+                                            const rating = course.rating ?? 0;
+                                            const stars = [];
+                                            const fullStars = Math.floor(rating);
+                                            const fractional = rating - fullStars;
+                                            const percentage = Math.round(fractional * 100);
+
+                                            for (let i = 0; i < 5; i++) {
+                                                if (i < fullStars) {
+                                                    // Full star
+                                                    stars.push(`
+                                                        <svg class="w-3 h-3 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.538 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.538-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.927 8.73c-.783-.57-.38-1.81.588-1.81h3.462a1 1 0 00.95-.69l1.07-3.292z"/>
+                                                        </svg>`);
+                                                } else if (i === fullStars && fractional > 0) {
+                                                    // Partial star using gradient mask
+                                                    stars.push(`
+                                                        <svg class="w-3 h-3" viewBox="0 0 20 20">
+                                                            <defs>
+                                                                <linearGradient id="grad${course.id}">
+                                                                    <stop offset="${percentage}%" stop-color="#facc15" />
+                                                                    <stop offset="${percentage}%" stop-color="#d1d5db" />
+                                                                </linearGradient>
+                                                            </defs>
+                                                            <path fill="url(#grad${course.id})" d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.538 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.538-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.927 8.73c-.783-.57-.38-1.81.588-1.81h3.462a1 1 0 00.95-.69l1.07-3.292z"/>
+                                                        </svg>
+                                                    `);
+                                                } else {
+                                                    // Empty star
+                                                    stars.push(`
+                                                        <svg class="w-3 h-3 text-gray-300" fill="currentColor" viewBox="0 0 20 20">
+                                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.538 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.538-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.927 8.73c-.783-.57-.38-1.81.588-1.81h3.462a1 1 0 00.95-.69l1.07-3.292z"/>
+                                                        </svg>`);
+                                                }
+                                            }
+                                            return stars.join("");
+                                        })()}
                                     </div>
                                 </div>
-                                <span class="text-xl font-bold text-indigo-600">
-                                    Rp${(course.harga ?? '0').toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}
+                                <span class="text-lg font-bold text-indigo-600">
+                                    ${course.harga_min != null && course.harga_min !== '' ? 'Rp ' + course.harga_min : 'Rp -'}
                                 </span>
                             </div>
-                            <div class="flex justify-between text-gray-500 text-sm">
-                                <div class="flex items-center space-x-1">
-                                    <i class="fa-solid fa-book-open"></i>
-                                    <span>${course.jumlah_modul ?? 0} classes</span>
-                                </div>
+                            
+                            <div class="flex justify-end text-gray-500 text-xs">
                                 <div class="flex items-center space-x-1">
                                     <i class="fa-solid fa-users"></i>
                                     <span>${course.jumlah_siswa ?? 0} students</span>
                                 </div>
+                        
                             </div>
                             <a href="detail.html?id=${course.id}" class="absolute inset-0 z-10"></a>
                         </div>
@@ -820,50 +745,5 @@
         });
     </script>
    
-   <script>
-        fetch('assets/data/kursus.json')
-          .then(res => res.json())
-          .then(data => {
-            const container = document.getElementById('courses-list');
-            container.innerHTML = data.map(course => `
-              <div class="relative bg-white rounded-lg shadow-md overflow-hidden transition-shadow duration-300 hover:shadow-lg transform hover:scale-105" style="transition: transform 0.2s;">
-                <p class="hidden text-indigo-700"> ${course.id}</p>
-                <img class="w-full h-48 object-cover" src="${course.gambar || 'https://via.placeholder.com/400x200?text=No+Image'}" alt="${course.nama_kursus || 'No Title'}">
-                ${course.bestSeller ? `<div class="absolute top-4 right-4 bg-yellow-400 text-white text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Best Seller</div>` : ''}
-                <div class="p-5">
-                  <h3 class="text-xl font-bold text-gray-900 mb-2">${course.nama_kursus ?? 'Untitled Course'}</h3>
-                  <div class="flex items-center mb-2">
-                    <img class="w-5 h-5 rounded-full object-cover mr-2" src="${course.foto_pengajar || 'https://via.placeholder.com/40?text=No+Image'}" alt="${course.nama_mentor || 'No Mentor'}">
-                    <p class="text-gray-600 text-sm ">${course.nama_pengajar ?? 'Unknown Author'}</p>    
-                </div>
-                  <div class="flex items-center justify-between mb-4">
-                    <div class="flex items-center">
-                      <span class="text-yellow-400 font-semibold mr-1">${course.rating ?? 0}</span>
-                      <div class="flex">
-                        ${[...Array(5)].map((_, i) => `
-                          <svg class="w-4 h-4 ${(i < Math.round(course.rating ?? 0)) ? 'text-yellow-400' : 'text-gray-300'}" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.538 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.538-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.927 8.73c-.783-.57-.38-1.81.588-1.81h3.462a1 1 0 00.95-.69l1.07-3.292z"></path></svg>
-                        `).join('')}
-                      </div>
-                    </div>
-                    <span class="text-xl font-bold text-indigo-600">
-                        Rp${(course.harga ?? '0').toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}
-                    </span>
-                  </div>
-                  <div class="flex justify-between text-gray-500 text-sm">
-                    <div class="flex items-center space-x-1">
-                        <i class="fa-solid fa-book-open"></i>
-                      <span>${course.classes ?? 0} classes</span>
-                    </div>
-                    <div class="flex items-center space-x-1">
-                        <i class="fa-solid fa-users"></i>
-                      <span>${course.jumlah_siswa ?? 0} students</span>
-                    </div>
-                  </div>
-                  <a href="detail.html?id=${course.id}" class="absolute inset-0 z-10"></a>
-                </div>
-              </div>
-            `).join('');
-          });
-    </script>
 </body>
 </html>
