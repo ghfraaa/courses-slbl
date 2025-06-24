@@ -12,10 +12,11 @@
     "fokus": [
       "Teknik Komputer",
       "Administrasi Perkantoran",
-      "Manajemen Informatika"
+      "Manajemen Informatika",
+      "Kursus Bahasa Inggris"
     ],
     "tipe": "Reguler",
-    "rating": 4.5,
+    "rating": 4.9,
     "jumlah_siswa": 200,
     "Akreditas": "A",
     "biaya": "Berbayar",
@@ -53,6 +54,8 @@
     "rating": 4.5,
     "jumlah_siswa": 1000,
     "biaya": "Berbayar",
+    "harga_min": "800.000",
+    "harga_max": "2.000.000",
     "metode_pembelajaran": [
       "Kelas Langsung"
     ],
@@ -83,6 +86,8 @@
     "rating": 5.0,
     "jumlah_siswa": 50000,
     "biaya": "Berbayar",
+    "harga_min": "500.000",
+    "harga_max": "10.000.000",
     "metode_pembelajaran": [
       "Kelas Langsung",
       "Kelas Online"
@@ -188,6 +193,8 @@
     "rating": 4.4,
     "jumlah_siswa": 2500,
     "biaya": "Berbayar",
+    "harga_min": "5.000.000",
+    "harga_max": "10.000.000",
     "metode_pembelajaran": [
       "Live Class",
       "Project Based"
@@ -289,7 +296,9 @@
     "tipe": "Reguler",
     "rating": 4.6,
     "jumlah_siswa": 950,
-    "biaya": "Berbayar",
+    "biaya": "Gratis & Berbayar",
+    "harga_min": "0",
+    "harga_max": "8.000.000",
     "metode_pembelajaran": [
       "Live Class",
       "Studi Kasus",
@@ -297,8 +306,7 @@
     ],
     "sertifikasi": true,
     "kontak": {
-      "email": "info@harisenin.com",
-      "telepon": "021-0000001"
+      "email": "info@harisenin.com"
     },
     "deskripsi": "Harisenin.com adalah platform belajar online yang menyediakan pelatihan profesional berbasis proyek untuk berbagai bidang digital seperti UI/UX, data science, dan karier."
   },
@@ -311,15 +319,17 @@
     "offline": false,
     "lokasi": ["Online"],
     "fokus": [
+      "Data analytics",
       "Digital marketing",
-      "Product management",
-      "Data analytics"
+      "Product management"
     ],
     "website": "https://revou.co",
     "tipe": "Bootcamp",
     "rating": 4.9,
     "jumlah_siswa": 1200,
-    "biaya": "Berbayar",
+    "biaya": "Gratis & Berbayar",
+    "harga_min": "0",
+    "harga_max": "16.000.000",
     "metode_pembelajaran": [
       "Live Class",
       "Project Based",
@@ -327,8 +337,7 @@
     ],
     "sertifikasi": true,
     "kontak": {
-      "email": "info@revou.co",
-      "telepon": "021-0000002"
+      "email": "info@revou.co"
     },
     "deskripsi": "RevoU adalah program bootcamp online intensif yang dirancang untuk membentuk tenaga kerja digital siap pakai di bidang marketing, data, dan produk."
   },
@@ -504,6 +513,8 @@
     "rating": 4.5,
     "jumlah_siswa": 50000,
     "biaya": "Gratis & Berbayar",
+    "harga_min" : "0",
+    "harga_max" : "500.000",
     "metode_pembelajaran": [
       "Live Webinar",
       "Recorded Class"
@@ -660,6 +671,8 @@
     "rating": 4.3,
     "jumlah_siswa": 50000,
     "biaya": "Gratis & Berbayar",
+    "harga_min": "0",
+    "harga_max": "400.000",
     "metode_pembelajaran": [
       "Self-paced",
       "Live Class"
@@ -681,10 +694,12 @@
     "offline": false,
     "lokasi": ["Jawa Barat"],
     "fokus": [
-      "Fullstack Web developer",
+      "Data science",
       "Pemrograman Web",
       "Mobile Development",
-      "Game Development"
+      "Fullstack Web developer",
+      "Game Development",
+      "Cybersecurity" 
     ],
     "website": "https://codepolitan.com",
     "tipe": "Platform Belajar",
@@ -696,7 +711,8 @@
     "metode_pembelajaran": [
       "Self-paced",
       "Bootcamp",
-      "Live Class"
+      "Sertifikat digital",
+      "Tantangan coding (CTF, quiz, dsb)"
     ],
     "sertifikasi": true,
     "kontak": {

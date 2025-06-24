@@ -527,8 +527,8 @@
                                             ? (
                                                 course.harga_min === course.harga_max
                                                     ? "Rp " + course.harga_min.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
-                                                    : "Rp " + course.harga_min.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") +
-                                                      " - Rp " + course.harga_max.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
+                                                    : "Rp " + course.harga_min.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + 
+                                                      "<br><span class='text-base font-normal text-gray-600'>sampai</span><br>Rp " + course.harga_max.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
                                               )
                                             : ((course.harga_min || course.harga_max)
                                                 ? "Rp " + ((course.harga_min || course.harga_max).toString().replace(/\B(?=(\d{3})+(?!\d))/g, "."))
